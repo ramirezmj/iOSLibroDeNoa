@@ -1,0 +1,411 @@
+/*
+ Localizable.strings
+ LaCarlota
+ 
+ Created by Enric Vergara Carreras on 28/03/13.
+ Copyright (c) 2013 Dojo. All rights reserved.
+ */
+
+
+//------ GENERAL APP----------------------------------------
+"VOLUM_SO"                  = "Volum del So";
+"VOLUM_NARRADOR"            = "Volum del Narrador";
+"LLEGEIXO_JO"               = "El llegeixo jo";
+"LLEGEIXMEL"                = "Llegeix-me'l";
+"APOCAPOC"                  = "A poc a poc";
+"MESDEPRESSA"               = "Més de pressa";
+"TITLE_EBOOK"               = "La Carlota a la granja";
+"ASK_GO_PAGE"               = "Realment vol anar a la pàgina";
+"CANCEL"                    = "No";
+"OK"                        = "Sí";
+"BACK_TO_HOME"              = "Realment vols tornar a l'inici?";
+
+//---------------------------------------------------------//
+//------------------------BAFARADES------------------------//
+//---------------------------------------------------------//
+
+//----BAFARADA PAGE 1---------
+"BAFARADA_GAT_1_PAGE_1"     = "Me he dejado las gafas de sol en casa.";
+"BAFARADA_GAT_2_PAGE_1"     = "A mí el campo me agobia un poco.";
+"BAFARADA_GAT_3_PAGE_1"     = "(Ruido de estornudo)";
+
+"BAFARADA_NOA_1_PAGE_1"     = "¡Vamos a explorar la granja!";
+"BAFARADA_NOA_2_PAGE_1"     = "Me encanta el olor a leña.";
+"BAFARADA_NOA_3_PAGE_1"     = "Línux, ¡eres más presumido que un pavo real!";
+
+"BAFARADA_TIETA_1_PAGE_1"   = "¡Qué día tan bonito hace!";
+"BAFARADA_TIETA_2_PAGE_1"   = "Me encanta este sol de primavera.";
+"BAFARADA_TIETA_3_PAGE_1"   = "Esta tarde haremos un ramo de flores.";
+
+"BAFARADA_TIET_1_PAGE_1"    = "Esta leña hará un buen fuego.";
+"BAFARADA_TIET_2_PAGE_1"    = "El ejercicio me abre el apetito.";
+"BAFARADA_TIET_3_PAGE_1"    = "¡No hagáis mucho el burro!";
+
+"BAFARADA_SOUND_ID_1"       = "B_ID_1_sp.mp3";
+"BAFARADA_SOUND_ID_2"       = "B_ID_2_sp.mp3";
+"BAFARADA_SOUND_ID_3"       = "B_ID_3_sp.mp3";
+"BAFARADA_SOUND_ID_4"       = "B_ID_4_sp.mp3";
+"BAFARADA_SOUND_ID_5"       = "B_ID_5_sp.mp3";
+"BAFARADA_SOUND_ID_6"       = "B_ID_6_sp.mp3";
+"BAFARADA_SOUND_ID_7"       = "B_ID_7_sp.mp3";
+"BAFARADA_SOUND_ID_8"       = "B_ID_8_sp.mp3";
+"BAFARADA_SOUND_ID_9"       = "B_ID_9_sp.mp3";
+"BAFARADA_SOUND_ID_10"      = "B_ID_10_sp.mp3";
+"BAFARADA_SOUND_ID_11"      = "B_ID_11_sp.mp3";
+"BAFARADA_SOUND_ID_12"      = "B_ID_12_sp.mp3";
+
+
+//----BAFARADA PAGE 2---------
+"BAFARADA_NOA_1_PAGE_2"     = "¡Qué jaleo!";
+"BAFARADA_NOA_2_PAGE_2"     = "No te alteres, Línux.";
+"BAFARADA_NOA_3_PAGE_2"     = "¿Quién querría una pluma tuya?";
+
+"BAFARADA_GAT_1_PAGE_2"     = "Ay, ¡cómo te pille...!";
+"BAFARADA_GAT_2_PAGE_2"     = "¡Qué animales más animales!";
+"BAFARADA_GAT_3_PAGE_2"     = "¿Os he dicho alguna vez que las plumas me dan alergia?";
+
+"BAFARADA_OCELL_1_PAGE_2"   = "¡Mal bicho!";
+"BAFARADA_OCELL_2_PAGE_2"   = "Ríete, ríete, que quién ríe último ríe mejor.";
+"BAFARADA_OCELL_3_PAGE_2"   = "Era mi pluma de la suerte...";
+
+"BAFARADA_SOUND_ID_13"       = "B_ID_13_sp.mp3";
+"BAFARADA_SOUND_ID_14"       = "B_ID_14_sp.mp3";
+"BAFARADA_SOUND_ID_15"       = "B_ID_15_sp.mp3";
+"BAFARADA_SOUND_ID_16"       = "B_ID_16_sp.mp3";
+"BAFARADA_SOUND_ID_17"       = "B_ID_17_sp.mp3";
+"BAFARADA_SOUND_ID_18"       = "B_ID_18_sp.mp3";
+"BAFARADA_SOUND_ID_19"       = "B_ID_19_sp.mp3";
+"BAFARADA_SOUND_ID_20"       = "B_ID_20_sp.mp3";
+"BAFARADA_SOUND_ID_21"       = "B_ID_21_sp.mp3";
+
+//----BAFARADA PAGE 3---------
+"BAFARADA_NOA_1_PAGE_3"     = "¡Ay, ay, Línux, que va en serio!";
+"BAFARADA_NOA_2_PAGE_3"     = "¡Qué follón!";
+"BAFARADA_NOA_3_PAGE_3"     = "Parece que tenemos trabajo.";
+
+"BAFARADA_GAT_1_PAGE_3"     = "Estos ven visiones.";
+"BAFARADA_GAT_2_PAGE_3"     = "Los perros no me hacen mucha gracia, francamente.";
+"BAFARADA_GAT_3_PAGE_3"     = "Lo bien que estaría yo paseando por los tejados...";
+
+"BAFARADA_OCELL_1_PAGE_3"   = "¡Ladrón de plumas!";
+"BAFARADA_OCELL_2_PAGE_3"   = "Ahora sabrás lo que es bueno.";
+"BAFARADA_OCELL_3_PAGE_3"   = "¡Perro, perro, ven!";
+
+"BAFARADA_ANEC_1_PAGE_3"    = "Te lo he dicho siempre, los gatos no son de fiar.";
+"BAFARADA_ANEC_2_PAGE_3"    = "Cada día es más peligroso pasear por el prado.";
+"BAFARADA_ANEC_3_PAGE_3"    = "Me voy a buscar a mis pollitos.";
+
+"BAFARADA_SOUND_ID_22"       = "B_ID_22_sp.mp3";
+"BAFARADA_SOUND_ID_23"       = "B_ID_23_sp.mp3";
+"BAFARADA_SOUND_ID_24"       = "B_ID_24_sp.mp3";
+"BAFARADA_SOUND_ID_25"       = "B_ID_25_sp.mp3";
+"BAFARADA_SOUND_ID_26"       = "B_ID_26_sp.mp3";
+"BAFARADA_SOUND_ID_27"       = "B_ID_27_sp.mp3";
+"BAFARADA_SOUND_ID_28"       = "B_ID_28_sp.mp3";
+"BAFARADA_SOUND_ID_29"       = "B_ID_29_sp.mp3";
+"BAFARADA_SOUND_ID_30"       = "B_ID_30_sp.mp3";
+"BAFARADA_SOUND_ID_31"       = "B_ID_31_sp.mp3";
+"BAFARADA_SOUND_ID_32"       = "B_ID_32_sp.mp3";
+"BAFARADA_SOUND_ID_33"       = "B_ID_33_sp.mp3";
+
+//----BAFARADA PAGE 4---------
+"BAFARADA_NOA_1_PAGE_4"     = "Línux, no seas gallina.";
+"BAFARADA_NOA_2_PAGE_4"     = "¡Esto es pan comido! Lo investigaremos.";
+"BAFARADA_NOA_3_PAGE_4"     = "Encontraremos al culpable.";
+
+"BAFARADA_GAT_1_PAGE_4"     = "No quiero ni oír hablar de animales con plumas.";
+"BAFARADA_GAT_2_PAGE_4"     = "Busquemos pistas.";
+"BAFARADA_GAT_3_PAGE_4"     = "Y yo que venía al campo a descansar...";
+
+"BAFARADA_SOUND_ID_34"       = "B_ID_34_sp.mp3";
+"BAFARADA_SOUND_ID_35"       = "B_ID_35_sp.mp3";
+"BAFARADA_SOUND_ID_36"       = "B_ID_36_sp.mp3";
+"BAFARADA_SOUND_ID_37"       = "B_ID_37_sp.mp3";
+"BAFARADA_SOUND_ID_38"       = "B_ID_38_sp.mp3";
+"BAFARADA_SOUND_ID_39"       = "B_ID_39_sp.mp3";
+
+//----BAFARADA PAGE 5---------
+"BAFARADA_NOA_1_PAGE_5"     = "¡Uy!, me parece que llegamos en un mal momento.";
+"BAFARADA_NOA_2_PAGE_5"     = "Aquí también hay armado un buen follón.";
+"BAFARADA_NOA_3_PAGE_5"     = "Parece ser que el gallo no está de muy buen humor.";
+
+"BAFARADA_GAT_1_PAGE_5"     = "¡Qué gallo más patético!";
+"BAFARADA_GAT_2_PAGE_5"     = "Ahora el gallo no puede darse aires.";
+"BAFARADA_GAT_3_PAGE_5"     = "Alguien debe de estarse haciendo una almohada de plumas.";
+
+"BAFARADA_GALLINA_1_PAGE_5" = "Le ha pasado por presumido.";
+"BAFARADA_GALLINA_2_PAGE_5" = "Le está bien por cascarrabias.";
+"BAFARADA_GALLINA_3_PAGE_5" = "Este gallo siempre está de mal humor.";
+"BAFARADA_GALLINA_4_PAGE_5" = "Si no se queja de algo, no está contento.";
+
+"BAFARADA_GALL_1_PAGE_5"    = "¡No puede pasarme esto!";
+"BAFARADA_GALL_2_PAGE_5"    = "¿Quién puede haberme robado las plumas?";
+"BAFARADA_GALL_3_PAGE_5"    = "¡Es lo nunca visto!";
+
+"BAFARADA_SOUND_ID_40"       = "B_ID_40_sp.mp3";
+"BAFARADA_SOUND_ID_41"       = "B_ID_41_sp.mp3";
+"BAFARADA_SOUND_ID_42"       = "B_ID_42_sp.mp3";
+"BAFARADA_SOUND_ID_43"       = "B_ID_43_sp.mp3";
+"BAFARADA_SOUND_ID_44"       = "B_ID_44_sp.mp3";
+"BAFARADA_SOUND_ID_45"       = "B_ID_45_sp.mp3";
+"BAFARADA_SOUND_ID_46"       = "B_ID_46_sp.mp3";
+"BAFARADA_SOUND_ID_47"       = "B_ID_47_sp.mp3";
+"BAFARADA_SOUND_ID_48"       = "B_ID_48_sp.mp3";
+"BAFARADA_SOUND_ID_49"       = "B_ID_49_sp.mp3";
+"BAFARADA_SOUND_ID_50"       = "B_ID_50_sp.mp3";
+"BAFARADA_SOUND_ID_51"       = "B_ID_51_sp.mp3";
+"BAFARADA_SOUND_ID_52"       = "B_ID_52_sp.mp3";
+
+//----BAFARADA PAGE 6---------
+"BAFARADA_NOA_1_PAGE_6"     = "¡Esto es un gallinero! Je, je...";
+"BAFARADA_NOA_2_PAGE_6"     = "Este gallo es un poco ridículo, sí.";
+"BAFARADA_NOA_3_PAGE_6"     = "Yo solo me pondría una pluma para disfrazarme de india.";
+
+"BAFARADA_GAT_1_PAGE_6"     = "Me parece que aquí tampoco saben quién ha sido.";
+"BAFARADA_GAT_2_PAGE_6"     = "Me está entrando un dolor de cabeza…";
+"BAFARADA_GAT_3_PAGE_6"     = "No sé cómo resolveremos este lío.";
+
+"BAFARADA_GALLINA_1_PAGE_6" = "¡Qué alboroto!";
+"BAFARADA_GALLINA_2_PAGE_6" = "No puedo poner huevos con este escándalo.";
+"BAFARADA_GALLINA_3_PAGE_6" = "Ahora me iría bien una siestecita.";
+
+"BAFARADA_GALLINAF_1_PAGE_6"= "¡Uy! ¡Un culo sin cola!";
+"BAFARADA_GALLINAF_2_PAGE_6"= "¡Se le ve el culo, se le ve el culo...!";
+"BAFARADA_GALLINAF_3_PAGE_6"= "Enfádate, enfádate, enfádate...";
+
+"BAFARADA_GALL_1_PAGE_6"    = "Si no os calláis, ¡me enfado!";
+"BAFARADA_GALL_2_PAGE_6"    = "¡Sois unas cacatúas!";
+"BAFARADA_GALL_3_PAGE_6"    = "Tendré que buscar algo con lo que taparme. ¿Un impermeable, quizás?";
+
+"BAFARADA_SOUND_ID_53"       = "B_ID_53_sp.mp3";
+"BAFARADA_SOUND_ID_54"       = "B_ID_54_sp.mp3";
+"BAFARADA_SOUND_ID_55"       = "B_ID_55_sp.mp3";
+"BAFARADA_SOUND_ID_56"       = "B_ID_56_sp.mp3";
+"BAFARADA_SOUND_ID_57"       = "B_ID_57_sp.mp3";
+"BAFARADA_SOUND_ID_58"       = "B_ID_58_sp.mp3";
+"BAFARADA_SOUND_ID_59"       = "B_ID_59_sp.mp3";
+"BAFARADA_SOUND_ID_60"       = "B_ID_60_sp.mp3";
+"BAFARADA_SOUND_ID_61"       = "B_ID_61_sp.mp3";
+"BAFARADA_SOUND_ID_62"       = "B_ID_62_sp.mp3";
+"BAFARADA_SOUND_ID_63"       = "B_ID_63_sp.mp3";
+"BAFARADA_SOUND_ID_64"       = "B_ID_64_sp.mp3";
+"BAFARADA_SOUND_ID_65"       = "B_ID_65_sp.mp3";
+"BAFARADA_SOUND_ID_66"       = "B_ID_66_sp.mp3";
+"BAFARADA_SOUND_ID_67"       = "B_ID_67_sp.mp3";
+
+
+//---------------------------------------------------------//
+//------------------------NARRADOR-------------------------//
+//---------------------------------------------------------//
+
+//----NARRATOR PAGE 1---------
+"NARRATOR_PAGE_1_TEXT"      = "Noa y su gato, Línux, pasan unos días en la granja del tío y la tía de Noa.";
+
+"NARRATOR_PAGE_1_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_1_MP3_SLOW"  = "narrador01_slow_sp.mp3";
+"NARRATOR_PAGE_1_MP3_FAST"  = "narrador01_fast_sp.mp3";
+
+
+
+
+//----NARRATOR PAGE 2---------
+"NARRATOR_PAGE_2_TEXT"      = "En el prado, un pájaro que está muy enfadado empieza a gritarles. Dice que Línux le ha arrancado una pluma mientras dormía. Línux protesta porque él no ha sido.";
+
+"NARRATOR_PAGE_2_TIME_SLOW" = "";
+
+"NARRATOR_PAGE_2_MP3_SLOW"  = "narrador02_slow_sp.mp3";
+"NARRATOR_PAGE_2_MP3_FAST"  = "narrador02_fast_sp.mp3";
+
+
+
+//----NARRATOR PAGE 3---------
+"NARRATOR_PAGE_3_TEXT"      = "Un pato salvaje se mete en el embrollo y habla con el pájaro. Llama al perro para que le muerda la cola al gato, dice. ¡Robar plumas es muy feo!";
+
+"NARRATOR_PAGE_3_TIME_SLOW" = "";
+
+"NARRATOR_PAGE_3_MP3_SLOW"  = "narrador03_slow_sp.mp3";
+"NARRATOR_PAGE_3_MP3_FAST"  = "narrador03_fast_sp.mp3";
+
+
+
+//----NARRATOR PAGE 4---------
+"NARRATOR_PAGE_4_TEXT"      = "Línux está cagadito porque los perros le dan mucho miedo. Noa le dice que no se preocupe porque van a encontrar al culpable.";
+
+"NARRATOR_PAGE_4_TIME_SLOW" = "";
+
+"NARRATOR_PAGE_4_MP3_SLOW"  = "narrador04_slow_sp.mp3";
+"NARRATOR_PAGE_4_MP3_FAST"  = "narrador04_fast_sp.mp3";
+
+
+
+//----NARRATOR PAGE 5---------
+"NARRATOR_PAGE_5_TEXT"      = "En el gallinero hay muchas plumas, y quizás también encontremos la solución al problema, dice la niña. Pero no encuentran la solución, sino a un animal enfadado y avergonzado: el gallo. Alguien le ha arrancado tres plumas de la cola y ¡ahora se le ve el culo!";
+
+"NARRATOR_PAGE_5_TIME_SLOW" = "";
+
+"NARRATOR_PAGE_5_MP3_SLOW"  = "narrador05_slow_sp.mp3";
+"NARRATOR_PAGE_5_MP3_FAST"  = "narrador05_fast_sp.mp3";
+
+
+
+//----NARRATOR PAGE 6---------
+"NARRATOR_PAGE_6_TEXT"      = "¡Habrase visto, un gallo pelado!, gritan las gallinas. Una gallina ponedora dice que las plumas son de lo más elegante. Otra gallina dice que un animal sin plumas es como un jardín sin flores.";
+
+"NARRATOR_PAGE_6_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_6_MP3_SLOW"  = "narrador06_slow_sp.mp3";
+"NARRATOR_PAGE_6_MP3_FAST"  = "narrador06_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 7---------
+"NARRATOR_PAGE_7_TEXT"      = "¡Habrase visto, un gallo pelado!, gritan las gallinas. Una gallina ponedora dice que las plumas son de lo más elegante. Otra gallina dice que un animal sin plumas es como un jardín sin flores.";
+
+"NARRATOR_PAGE_7_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_7_MP3_SLOW"  = "narrador07_slow_sp.mp3";
+"NARRATOR_PAGE_7_MP3_FAST"  = "narrador07_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 8---------
+"NARRATOR_PAGE_8_TEXT"      = "Las vacas están muy ocupadas. Una vaca come heno y la otra lo mastica. Y dicen que ellas no son las ladronas de plumas.";
+
+"NARRATOR_PAGE_8_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_8_MP3_SLOW"  = "narrador08_slow_sp.mp3";
+"NARRATOR_PAGE_8_MP3_FAST"  = "narrador08_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 9---------
+"NARRATOR_PAGE_9_TEXT"      = "Una vaca es ordeñada por un ordeñadero y la otra espera su turno. Ellas no han robado las plumas. En realidad, nunca han robado nada de nada. Pero a mí siempre me ha hecho ilusión tener un sombrero de plumas, dice una.";
+
+"NARRATOR_PAGE_9_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_9_MP3_SLOW"  = "narrador09_slow_sp.mp3";
+"NARRATOR_PAGE_9_MP3_FAST"  = "narrador09_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 10---------
+"NARRATOR_PAGE_10_TEXT"      = "Llegan al pajar y se encuentran a los gatos, holgazaneando. Entre bostezos, los gatos dicen que ellos no tienen ni idea de plumas. Los gatos de campo, que somos más listos que los de ciudad, nos comemos a los bichos con plumas y todo, dice uno.";
+
+"NARRATOR_PAGE_10_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_10_MP3_SLOW"  = "narrador10_slow_sp.mp3";
+"NARRATOR_PAGE_10_MP3_FAST"  = "narrador10_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 11---------
+"NARRATOR_PAGE_11_TEXT"      = "Los tres gatos miran a Línux con rabia y él los mira con insolencia. De repente, unos gritos terribles impiden que se zurren. Alguien grita: ¡mis plumas!";
+
+"NARRATOR_PAGE_11_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_11_MP3_SLOW"  = "narrador11_slow_sp.mp3";
+"NARRATOR_PAGE_11_MP3_FAST"  = "narrador11_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 12---------
+"NARRATOR_PAGE_12_TEXT"      = "Bajo el manzano encuentran al pavo real con su maravillosa cola extendida. Pero, ¡oh!, tiene un agujero en el centro. ¡Eso quiere decir que a él también le han robado alguna pluma!";
+
+"NARRATOR_PAGE_12_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_12_MP3_SLOW"  = "narrador12_slow_sp.mp3";
+"NARRATOR_PAGE_12_MP3_FAST"  = "narrador12_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 13---------
+"NARRATOR_PAGE_13_TEXT"      = "Un conejo saca el hocico por la valla para decir que esto debe de ser cosa del zorro. Noa y Línux le prestan atención: ¡por fin alguien tiene un sospechoso! El conejo dice que el zorro siempre ronda por el gallinero.";
+
+"NARRATOR_PAGE_13_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_13_MP3_SLOW"  = "narrador13_slow_sp.mp3";
+"NARRATOR_PAGE_13_MP3_FAST"  = "narrador13_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 14---------
+"NARRATOR_PAGE_14_TEXT"      = "De dentro de la leñera surge una voz ronca. Soy el zorro, dice. Rondo el gallinero para zamparme a las gallinas, no para robar plumas. Podemos llamar al perro, para que lo asuste, dice el conejo.";
+
+"NARRATOR_PAGE_14_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_14_MP3_SLOW"  = "narrador14_slow_sp.mp3";
+"NARRATOR_PAGE_14_MP3_FAST"  = "narrador14_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 15---------
+"NARRATOR_PAGE_15_TEXT"      = "El perro toma a Línux por el ladrón de plumas. Le enseña los dientes como si lo quisiera morder. Noa le dice que su gato no ha sido, que lo deje en paz.";
+
+"NARRATOR_PAGE_15_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_15_MP3_SLOW"  = "narrador15_slow_sp.mp3";
+"NARRATOR_PAGE_15_MP3_FAST"  = "narrador15_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 16---------
+"NARRATOR_PAGE_16_TEXT"      = "El caballo dice que ha visto una cola rosada i retorcida que echaba a correr. Un cerdito que nos espiaba, dice Noa. El caballo les dice que encontrarán a los cerdos en la granja de al lado. ";
+
+"NARRATOR_PAGE_16_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_16_MP3_SLOW"  = "narrador16_slow_sp.mp3";
+"NARRATOR_PAGE_16_MP3_FAST"  = "narrador16_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 17---------
+"NARRATOR_PAGE_17_TEXT"      = "En la pocilga encuentran cerdos, cerdas y cerditos, pero nada más. ¡Eh, un momento!, dice Noa mirando hacia el fondo de la pocilga. Hay un cerdito sentado encima de... ";
+
+"NARRATOR_PAGE_17_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_17_MP3_SLOW"  = "narrador17_slow_sp.mp3";
+"NARRATOR_PAGE_17_MP3_FAST"  = "narrador17_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 18---------
+"NARRATOR_PAGE_18_TEXT"      = "¡Has sido tú!, gritan Línux y Noa al mismo tiempo, señalando las plumas. El cerdito se pone rojo como un tomate y reconoce que las ha robado él. Son para hacerme un sombrero; lo necesito para ir a una fiesta en la ciudad.";
+
+"NARRATOR_PAGE_18_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_18_MP3_SLOW"  = "narrador18_slow_sp.mp3";
+"NARRATOR_PAGE_18_MP3_FAST"  = "narrador18_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 19---------
+"NARRATOR_PAGE_19_TEXT"      = "Es una fiesta de cumpleaños para celebrar que cumplo un año. Pero si tú solo no puedes ir a la ciudad, dice Noa. Déjame pensar una solución, dice ella cuando ve que el cerdito se pone a hacer pucheros.";
+
+"NARRATOR_PAGE_19_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_19_MP3_SLOW"  = "narrador19_slow_sp.mp3";
+"NARRATOR_PAGE_19_MP3_FAST"  = "narrador19_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 20---------
+"NARRATOR_PAGE_20_TEXT"      = "Y se van a hablar con los pájaros. Así que ha sido ese gamberro, dice el pavo real. ¡Bah!, que se las quede. Al fin y al cabo, nos volverán a salir en invierno.";
+
+"NARRATOR_PAGE_20_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_20_MP3_SLOW"  = "narrador20_slow_sp.mp3";
+"NARRATOR_PAGE_20_MP3_FAST"  = "narrador20_fast_sp.mp3";
+
+
+//----NARRATOR PAGE 21---------
+"NARRATOR_PAGE_21_TEXT"      = "Como se ha resuelto el misterio, ya nadie está enfadado con el cerdito. Le preparan una fiesta de cumpleaños con tarta y velas incluidas. El lechón sopla las velas y Línux se sienta muy lejos del perro. ";
+
+"NARRATOR_PAGE_21_TIME_SLOW" = "";
+
+
+"NARRATOR_PAGE_21_MP3_SLOW"  = "narrador21_slow_sp.mp3";
+"NARRATOR_PAGE_21_MP3_FAST"  = "narrador21_fast_sp.mp3";
+

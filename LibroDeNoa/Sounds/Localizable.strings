@@ -1,0 +1,458 @@
+/*
+ Localizable.strings
+ LaCarlota
+ 
+ Created by Enric Vergara Carreras on 28/03/13.
+ Copyright (c) 2013 Dojo. All rights reserved.
+ */
+
+
+
+//------ GENERAL APP----------------------------------------
+"VOLUM_SO"                  = "Volum del So";
+"VOLUM_NARRADOR"            = "Volum del Narrador";
+"LLEGEIXO_JO"               = "El llegeixo jo";
+"LLEGEIXMEL"                = "Llegeix-me'l";
+"APOCAPOC"                  = "A poc a poc";
+"MESDEPRESSA"               = "Més de pressa";
+"TITLE_EBOOK"               = "La Carlota a la granja";
+"ASK_GO_PAGE"               = "Realment vol anar a la pàgina";
+"CANCEL"                    = "No";
+"OK"                        = "Sí";
+"BACK_TO_HOME"              = "Realment vols tornar a l'inici?";
+
+//---------------------------------------------------------//
+//------------------------BAFARADES------------------------//
+//---------------------------------------------------------//
+
+//----BAFARADA PAGE 1---------
+"BAFARADA_GAT_1_PAGE_1"     = "M'he deixat les ulleres de sol";
+"BAFARADA_GAT_2_PAGE_1"     = "A mi, el camp m'atabala una mica";
+"BAFARADA_GAT_3_PAGE_1"     = "Atxús, atxús";
+
+"BAFARADA_NOA_1_PAGE_1"     = "Anem a explorar la granja!";
+"BAFARADA_NOA_2_PAGE_1"     = "M’encanta l’olor de llenya.";
+"BAFARADA_NOA_3_PAGE_1"     = "Línux, ets més presumit que un gat borni!";
+
+"BAFARADA_TIETA_1_PAGE_1"   = "Quin dia més bonic que us fa!";
+"BAFARADA_TIETA_2_PAGE_1"   = "M’encanta el solet de primavera.";
+"BAFARADA_TIETA_3_PAGE_1"   = "Aquesta tarda farem un ram de flors.";
+
+"BAFARADA_TIET_1_PAGE_1"    = "Aquesta llenya farà un bon foc.";
+"BAFARADA_TIET_2_PAGE_1"    = "L’exercici em fa venir gana.";
+"BAFARADA_TIET_3_PAGE_1"    = "No feu gaire el boig!";
+
+"BAFARADA_SOUND_ID_1"       = "B_ID_1_ca.mp3";
+"BAFARADA_SOUND_ID_2"       = "B_ID_2_ca.mp3";
+"BAFARADA_SOUND_ID_3"       = "B_ID_3_ca.mp3";
+"BAFARADA_SOUND_ID_4"       = "B_ID_4_ca.mp3";
+"BAFARADA_SOUND_ID_5"       = "B_ID_5_ca.mp3";
+"BAFARADA_SOUND_ID_6"       = "B_ID_6_ca.mp3";
+"BAFARADA_SOUND_ID_7"       = "B_ID_7_ca.mp3";
+"BAFARADA_SOUND_ID_8"       = "B_ID_8_ca.mp3";
+"BAFARADA_SOUND_ID_9"       = "B_ID_9_ca.mp3";
+"BAFARADA_SOUND_ID_10"      = "B_ID_10_ca.mp3";
+"BAFARADA_SOUND_ID_11"      = "B_ID_11_ca.mp3";
+"BAFARADA_SOUND_ID_12"      = "B_ID_12_ca.mp3";
+
+
+//----BAFARADA PAGE 2---------
+"BAFARADA_NOA_1_PAGE_2"     = "Quin enrenou!";
+"BAFARADA_NOA_2_PAGE_2"     = "No t’esveris, Línux.";
+"BAFARADA_NOA_3_PAGE_2"     = "Qui voldria una ploma teva?";
+
+"BAFARADA_GAT_1_PAGE_2"     = "Ai, si vinc i t’atrapo...!";
+"BAFARADA_GAT_2_PAGE_2"     = "Quins animals més animals!";
+"BAFARADA_GAT_3_PAGE_2"     = "Us ho he dit ja, que les plomes em fan al•lèrgia?";
+
+"BAFARADA_OCELL_1_PAGE_2"   = "Mala bèstia!";
+"BAFARADA_OCELL_2_PAGE_2"   = "Riu, riu, que qui riu últim riu millor.";
+"BAFARADA_OCELL_3_PAGE_2"   = "Era la meva ploma de la sort...";
+
+"BAFARADA_SOUND_ID_13"      = "B_ID_13_ca.mp3";
+"BAFARADA_SOUND_ID_14"      = "B_ID_14_ca.mp3";
+"BAFARADA_SOUND_ID_15"      = "B_ID_15_ca.mp3";
+"BAFARADA_SOUND_ID_16"      = "B_ID_16_ca.mp3";
+"BAFARADA_SOUND_ID_17"      = "B_ID_17_ca.mp3";
+"BAFARADA_SOUND_ID_18"      = "B_ID_18_ca.mp3";
+"BAFARADA_SOUND_ID_19"      = "B_ID_19_ca.mp3";
+"BAFARADA_SOUND_ID_20"      = "B_ID_20_ca.mp3";
+"BAFARADA_SOUND_ID_21"      = "B_ID_21_ca.mp3";
+
+//----BAFARADA PAGE 3---------
+"BAFARADA_NOA_1_PAGE_3"     = "Ai, ai, que encara prendràs mal, Línux.";
+"BAFARADA_NOA_2_PAGE_3"     = "Quin sidral!";
+"BAFARADA_NOA_3_PAGE_3"     = "Se’ns gira feina.";
+
+"BAFARADA_GAT_1_PAGE_3"     = "Aquest parell veuen visions.";
+"BAFARADA_GAT_2_PAGE_3"     = "El gossos no m’agraden gaire, francament.";
+"BAFARADA_GAT_3_PAGE_3"     = "Tan bé que estaria passejant pels terrats...";
+
+"BAFARADA_OCELL_1_PAGE_3"   = "Lladregot de plomes!";
+"BAFARADA_OCELL_2_PAGE_3"   = "Ara sabràs el que és bo.";
+"BAFARADA_OCELL_3_PAGE_3"   = "Gos, gos, vine!";
+
+"BAFARADA_ANEC_1_PAGE_3"    = "Ja ho dic jo que els gats no són de fiar.";
+"BAFARADA_ANEC_2_PAGE_3"    = "Cada dia és més perillós passejar pel prat.";
+"BAFARADA_ANEC_3_PAGE_3"    = "Me’n vaig a buscar els meus pollets.";
+
+"BAFARADA_SOUND_ID_22"      = "B_ID_22_ca.mp3";
+"BAFARADA_SOUND_ID_23"      = "B_ID_23_ca.mp3";
+"BAFARADA_SOUND_ID_24"      = "B_ID_24_ca.mp3";
+"BAFARADA_SOUND_ID_25"      = "B_ID_25_ca.mp3";
+"BAFARADA_SOUND_ID_26"      = "B_ID_26_ca.mp3";
+"BAFARADA_SOUND_ID_27"      = "B_ID_27_ca.mp3";
+"BAFARADA_SOUND_ID_28"      = "B_ID_28_ca.mp3";
+"BAFARADA_SOUND_ID_29"      = "B_ID_29_ca.mp3";
+"BAFARADA_SOUND_ID_30"      = "B_ID_30_ca.mp3";
+"BAFARADA_SOUND_ID_31"      = "B_ID_31_ca.mp3";
+"BAFARADA_SOUND_ID_32"      = "B_ID_32_ca.mp3";
+"BAFARADA_SOUND_ID_33"      = "B_ID_33_ca.mp3";
+
+//----BAFARADA PAGE 4---------
+"BAFARADA_NOA_1_PAGE_4"     = "Línux, no siguis gallina!";
+"BAFARADA_NOA_2_PAGE_4"     = "Això rai! Farem de detectius.";
+"BAFARADA_NOA_3_PAGE_4"     = "Trobarem el culpable.";
+
+"BAFARADA_GAT_1_PAGE_4"     = "No vull sentir-ne parlar, d’animals amb plomes.";
+"BAFARADA_GAT_2_PAGE_4"     = "Busquem pistes.";
+"BAFARADA_GAT_3_PAGE_4"     = "I jo que venia al camp a descansar...";
+
+"BAFARADA_SOUND_ID_34"      = "B_ID_34_ca.mp3";
+"BAFARADA_SOUND_ID_35"      = "B_ID_35_ca.mp3";
+"BAFARADA_SOUND_ID_36"      = "B_ID_36_ca.mp3";
+"BAFARADA_SOUND_ID_37"      = "B_ID_37_ca.mp3";
+"BAFARADA_SOUND_ID_38"      = "B_ID_38_ca.mp3";
+"BAFARADA_SOUND_ID_39"      = "B_ID_39_ca.mp3";
+
+//----BAFARADA PAGE 5---------
+"BAFARADA_NOA_1_PAGE_5"     = "Ui!, em sembla que arribem en un mal moment.";
+"BAFARADA_NOA_2_PAGE_5"     = "Aquí també hi ha un bon sidral.";
+"BAFARADA_NOA_3_PAGE_5"     = "Sembla que el gall no està de gaire bon humor.";
+
+"BAFARADA_GAT_1_PAGE_5"     = "Quin gall més patètic!";
+"BAFARADA_GAT_2_PAGE_5"     = "Ara el gall no pot fer el fatxenda.";
+"BAFARADA_GAT_3_PAGE_5"     = "Algú es deu estar fent un coixí de plomes.";
+
+"BAFARADA_GALLINA_1_PAGE_5" = "Li ha passat per presumit.";
+"BAFARADA_GALLINA_2_PAGE_5" = "Li està bé per malcarat.";
+"BAFARADA_GALLINA_3_PAGE_5" = "Aquest gall sempre està de mal humor.";
+"BAFARADA_GALLINA_4_PAGE_5" = "Si no es queixa d’alguna cosa no està content.";
+
+"BAFARADA_GALL_1_PAGE_5"    = "No pot ser que a mi em passi això!";
+"BAFARADA_GALL_2_PAGE_5"    = "Qui em pot haver robat les plomes?";
+"BAFARADA_GALL_3_PAGE_5"    = "És un cas com un cabàs!";
+
+"BAFARADA_SOUND_ID_40"      = "B_ID_40_ca.mp3";
+"BAFARADA_SOUND_ID_41"      = "B_ID_41_ca.mp3";
+"BAFARADA_SOUND_ID_42"      = "B_ID_42_ca.mp3";
+"BAFARADA_SOUND_ID_43"      = "B_ID_43_ca.mp3";
+"BAFARADA_SOUND_ID_44"      = "B_ID_44_ca.mp3";
+"BAFARADA_SOUND_ID_45"      = "B_ID_45_ca.mp3";
+"BAFARADA_SOUND_ID_46"      = "B_ID_46_ca.mp3";
+"BAFARADA_SOUND_ID_47"      = "B_ID_47_ca.mp3";
+"BAFARADA_SOUND_ID_48"      = "B_ID_48_ca.mp3";
+"BAFARADA_SOUND_ID_49"      = "B_ID_49_ca.mp3";
+"BAFARADA_SOUND_ID_50"      = "B_ID_50_ca.mp3";
+"BAFARADA_SOUND_ID_51"      = "B_ID_51_ca.mp3";
+"BAFARADA_SOUND_ID_52"      = "B_ID_52_ca.mp3";
+
+//----BAFARADA PAGE 6---------
+"BAFARADA_NOA_1_PAGE_6"     = "Això és un galliner! He, he...";
+"BAFARADA_NOA_2_PAGE_6"     = "Una mica ridícul sí que ho és, aquest gall.";
+"BAFARADA_NOA_3_PAGE_6"     = "Jo, una ploma, només me la posaria per disfressar-me d’índia.";
+
+"BAFARADA_GAT_1_PAGE_6"     = "Em sembla que aquí tampoc no saben qui ha estat.";
+"BAFARADA_GAT_2_PAGE_6"     = "M’està venint mal de cap.";
+"BAFARADA_GAT_3_PAGE_6"     = "No sé pas com el resoldrem, aquest embolic.";
+
+"BAFARADA_GALLINA_1_PAGE_6" = "Quin xivarri que feu!";
+"BAFARADA_GALLINA_2_PAGE_6" = "No puc pondre ous amb aquest escàndol.";
+"BAFARADA_GALLINA_3_PAGE_6" = "Ara me n’aniria a fer una becaina.";
+
+"BAFARADA_GALLINAF_1_PAGE_6"= "Uix! Un cul escuat!";
+"BAFARADA_GALLINAF_2_PAGE_6"= "Se li veu el cul, se li veu el cul...!";
+"BAFARADA_GALLINAF_3_PAGE_6"= "Enfada’t, enfada’t, enfada’t...";
+
+"BAFARADA_GALL_1_PAGE_6"    = "Si no calleu, m’empipo!";
+"BAFARADA_GALL_2_PAGE_6"    = "Sou unes paparres!";
+"BAFARADA_GALL_3_PAGE_6"    = "Hauré de buscar alguna cosa per tapar-me. Un impermeable, potser?";
+
+"BAFARADA_SOUND_ID_53"      = "B_ID_53_ca.mp3";
+"BAFARADA_SOUND_ID_54"      = "B_ID_54_ca.mp3";
+"BAFARADA_SOUND_ID_55"      = "B_ID_55_ca.mp3";
+"BAFARADA_SOUND_ID_56"      = "B_ID_56_ca.mp3";
+"BAFARADA_SOUND_ID_57"      = "B_ID_57_ca.mp3";
+"BAFARADA_SOUND_ID_58"      = "B_ID_58_ca.mp3";
+"BAFARADA_SOUND_ID_59"      = "B_ID_59_ca.mp3";
+"BAFARADA_SOUND_ID_60"      = "B_ID_60_ca.mp3";
+"BAFARADA_SOUND_ID_61"      = "B_ID_61_ca.mp3";
+"BAFARADA_SOUND_ID_62"      = "B_ID_62_ca.mp3";
+"BAFARADA_SOUND_ID_63"      = "B_ID_63_ca.mp3";
+"BAFARADA_SOUND_ID_64"      = "B_ID_64_ca.mp3";
+"BAFARADA_SOUND_ID_65"      = "B_ID_65_ca.mp3";
+"BAFARADA_SOUND_ID_66"      = "B_ID_66_ca.mp3";
+"BAFARADA_SOUND_ID_67"      = "B_ID_67_ca.mp3";
+
+//----BAFARADA PAGE 7---------
+"BAFARADA_NOA_1_PAGE_7"     = "Jo no tinc pèl, per això duc vestits.";
+"BAFARADA_NOA_2_PAGE_7"     = "Si tingués plomes al cul seria un problema per asseure’m a les cadires.";
+"BAFARADA_NOA_3_PAGE_7"     = "A veure si és una vaca, la roba-plomes?.";
+
+"BAFARADA_GAT_1_PAGE_7"     = "És millor el pèl que les plomes. Ho dic jo, que tinc pèl.";
+"BAFARADA_GAT_2_PAGE_7"     = "El meu pèl és negre com una nit sense lluna.";
+"BAFARADA_GAT_3_PAGE_7"     = "Sóc suau com un peluix.";
+
+"BAFARADA_SOUND_ID_68"      = "B_ID_68_ca.mp3";
+"BAFARADA_SOUND_ID_69"      = "B_ID_69_ca.mp3";
+"BAFARADA_SOUND_ID_70"      = "B_ID_70_ca.mp3";
+"BAFARADA_SOUND_ID_71"      = "B_ID_71_ca.mp3";
+"BAFARADA_SOUND_ID_72"      = "B_ID_72_ca.mp3";
+"BAFARADA_SOUND_ID_73"      = "B_ID_73_ca.mp3";
+
+
+//----BAFARADA PAGE 8---------
+"BAFARADA_NOA_1_PAGE_8"     = "M’estimo més menjar macarrons que farratge.";
+"BAFARADA_NOA_2_PAGE_8"     = "Aquesta vaca mastega molta estona, oi?";
+"BAFARADA_NOA_3_PAGE_8"     = "Veient-les menjar, sento una mica de rau-rau a la panxa.";
+
+"BAFARADA_GAT_1_PAGE_8"     = "Jo m’estimo més menjar sardines.";
+"BAFARADA_GAT_2_PAGE_8"     = "Les vaques sembla que estiguin a la lluna de València.";
+"BAFARADA_GAT_3_PAGE_8"     = "Aquí hi fa un tuf de vaca força inaguantable.";
+
+"BAFARADA_VAQUES_1_PAGE_8"  = "A mi les plomes em fan al•lèrgia.";
+"BAFARADA_VAQUES_2_PAGE_8"  = "Veig una ploma i ja començo a esternudar.";
+"BAFARADA_VAQUES_3_PAGE_8"  = "(Soroll d’un rot)";
+"BAFARADA_VAQUES_4_PAGE_8"  = "Plomes? Uf! Han de ser molt incòmodes...";
+"BAFARADA_VAQUES_5_PAGE_8"  = "Sempre he trobat les plomes poc pràctiques.";
+"BAFARADA_VAQUES_6_PAGE_8"  = "Bon profit.";
+
+"BAFARADA_SOUND_ID_74"      = "B_ID_74_ca.mp3";
+"BAFARADA_SOUND_ID_75"      = "B_ID_75_ca.mp3";
+"BAFARADA_SOUND_ID_76"      = "B_ID_76_ca.mp3";
+"BAFARADA_SOUND_ID_77"      = "B_ID_77_ca.mp3";
+"BAFARADA_SOUND_ID_78"      = "B_ID_78_ca.mp3";
+"BAFARADA_SOUND_ID_79"      = "B_ID_79_ca.mp3";
+"BAFARADA_SOUND_ID_80"      = "B_ID_80_ca.mp3";
+"BAFARADA_SOUND_ID_81"      = "B_ID_81_ca.mp3";
+"BAFARADA_SOUND_ID_82"      = "B_ID_82_ca.mp3";
+"BAFARADA_SOUND_ID_83"      = "B_ID_83_ca.mp3";
+"BAFARADA_SOUND_ID_84"      = "B_ID_84_ca.mp3";
+"BAFARADA_SOUND_ID_85"      = "B_ID_85_ca.mp3";
+
+
+//---------------------------------------------------------//
+//------------------------NARRADOR-------------------------//
+//---------------------------------------------------------//
+
+//----NARRATOR PAGE 1---------
+"NARRATOR_PAGE_1_TEXT"      = "La Noa i el seu gat, en Línux, passen uns dies a la granja de l’oncle i la tia.";
+
+"NARRATOR_PAGE_1_TIME_SLOW" = "La(0.0) Noa(1.0) i(1.8) el(1.9) seu(2.2) gat,(2.8) en(3.8) Línux,(4.2) passen(5.5) uns(6.2) dies(6.8) a(7.5) la(7.7) granja(8.0) de(8.7) l'oncle(9.0) i(9.9) la(10.0) tia.(10.3) (11.0)";
+
+
+"NARRATOR_PAGE_1_MP3_SLOW"  = "narrador01_slow_ca.mp3";
+"NARRATOR_PAGE_1_MP3_FAST"  = "narrador01_fast_ca.mp3";
+
+
+
+
+//----NARRATOR PAGE 2---------
+"NARRATOR_PAGE_2_TEXT"      = "Al prat, un ocell molt enfadat els escridassa. Diu que en Línux li ha arrencat una ploma mentre dormia. En Línux protesta perquè ell no ha estat.";
+
+"NARRATOR_PAGE_2_TIME_SLOW" = "Al(0.3) prat,(0.9) un(1.9) ocell(2.3) molt(3.1) enfadat(3.7) els(5.0) escridassa.(5.4) Diu(8.2) que(8.9) en(9.4) Línux(9.8) li(10.9) ha(11.2) arrencat(11.5) una(12.5) ploma(13.0) mentre(13.9) dormia.(14.6) En(17.2) Línux(17.5) protesta(18.4) perquè(19.9) ell(20.5) no(21.2) ha(21.5) estat.(21.8) (22.8)";
+
+"NARRATOR_PAGE_2_MP3_SLOW"  = "narrador02_slow_ca.mp3";
+"NARRATOR_PAGE_2_MP3_FAST"  = "narrador02_fast_ca.mp3";
+
+
+
+//----NARRATOR PAGE 3---------
+"NARRATOR_PAGE_3_TEXT"      = "Un ànec salvatge s’afegeix a la gresca i parla amb l’ocell. Avisa el gos perquè mossegui la cua del gat, diu. Això de robar plomes està molt mal fet!";
+
+"NARRATOR_PAGE_3_TIME_SLOW" = "Un(0.5) ànec(1.2) salvatge(2.1) s’afegeix(3.8) a(5.3) la(5.8) gresca(6.2) i(7.6) parla(8.2) amb(8.8) l’ocell(9.3). Avisa(11.4) el(12.3) gos(12.9) perquè(13.6) mossegui(14.3) la(15.9) cua(16.5) del(17.2) gat,(17,7) diu.(18.5) Això(20.3) de(21.3) robar(21.6) plomes(22.4) està(23.8) molt(24.7) mal(25.5) fet!(26.3) (27.3)";
+
+"NARRATOR_PAGE_3_MP3_SLOW"  = "narrador03_slow_ca.mp3";
+"NARRATOR_PAGE_3_MP3_FAST"  = "narrador03_fast_ca.mp3";
+
+
+
+//----NARRATOR PAGE 4---------
+"NARRATOR_PAGE_4_TEXT"      = "En Línux està escagarrinat perquè els gossos li fan molta por. La Noa li diu que no s’hi amoïni, que buscaran el culpable.";
+
+"NARRATOR_PAGE_4_TIME_SLOW" = "En(0.3) Línux(0.8) està(1.9) escagarrinat(3.2) perquè(5.8) els(6.7) gossos(7.2) li(8.3) fan(8.9) molta(9.6) por.(10.6) La(12.4) Noa(12.9) li(13.9) diu(14.4) que(15.5) no(16.0) s’hi(16.5) amoïni,(17.2) que(18.9) buscaran(19.4) el(21.1) culpable.(21.8) (22.8)";
+
+"NARRATOR_PAGE_4_MP3_SLOW"  = "narrador04_slow_ca.mp3";
+"NARRATOR_PAGE_4_MP3_FAST"  = "narrador04_fast_ca.mp3";
+
+
+
+//----NARRATOR PAGE 5---------
+"NARRATOR_PAGE_5_TEXT"      = "Al galliner hi ha plomes i potser la solució del problema, diu la nena. Però no hi troben la solució sinó un animal empipat i avergonyit: el gall. Algú li ha pres tres plomes de la cua i ara se li veu el cul!";
+
+"NARRATOR_PAGE_5_TIME_SLOW" = "Al(05) galliner(1.1) hi(3.0) ha(3.4) plomes(4.0) i(5.4) potser(6.0) la(7.3) solució(7.8) del(9.6) problema,(10.3) diu(11.8) la(12.5) nena.(13.1) Però(15.5) no(16.2) hi(17.0) troben(17.4) la(18.6) solució(19.0) sinó(20.5) un(21.8) animal(22.6) empipat(24.1) i(25.9) avergonyit:(26.6) el(28.8) gall.(29.2) Algú(30.7) li(32.0) ha(32.8) pres(33.2) tres(34.2) plomes(35.1) de(36.3) la(37.0) cua(37.9) i(39.2) ara(39.8) se(40.7) li(41.4) veu(42.1) el(42.8) cul!(43.6) (44.6)";
+
+"NARRATOR_PAGE_5_MP3_SLOW"  = "narrador05_slow_ca.mp3";
+"NARRATOR_PAGE_5_MP3_FAST"  = "narrador05_fast_ca.mp3";
+
+
+
+//----NARRATOR PAGE 6---------
+"NARRATOR_PAGE_6_TEXT"      = "On s’és vist un gall pelat?, criden les gallines. Una gallina ponedora diu que les plomes són d’allò més elegants. Una altra gallina diu que una bèstia sense plomes és com un jardí sense flors.";
+
+"NARRATOR_PAGE_6_TIME_SLOW" = "On(0.5) s’és(1.3) vist(2.2) un(3.1) gall(3.8) pelat?,(4.8) criden(6.5) les(7.8) gallines.(8.4) Una(10.9) gallina(12.2) ponedora(14.2) diu(16.8) que(18.0) les(18.9) plomes(20.0) són(21.6) d’allò(22.8) més(24.3) elegants.(25.5) Una(28.0) altra(29.2) gallina(30.3) diu(32.2) que(33.4) una(34.3) bèstia(35.6) sense(36.7) plomes(38.3) és(39.9) com(40.8) un(41.7) jardí(42.4) sense(44.0) flors.(45.3) (46.3)";
+
+
+"NARRATOR_PAGE_6_MP3_SLOW"  = "narrador06_slow_ca.mp3";
+"NARRATOR_PAGE_6_MP3_FAST"  = "narrador06_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 7---------
+"NARRATOR_PAGE_7_TEXT"      = "La Noa diu que han de buscar animals sense plomes, però que tinguin pèl. Per força el culpable ha de ser un animal sense plomes!. I se’n van a veure les vaques.";
+
+"NARRATOR_PAGE_7_TIME_SLOW" = "La(0.4) Noa(1.2) diu(2.8) que(3.7) han(4.4) de(5.1) buscar(6.0) animals(7.7) sense(9.8) plomes,(11.2) però(12.8) que(13.8) tinguin(14.6) pèl.(16.1) Per(17.5) força(18.5) el(20.1) culpable(20.9) ha(22.8) de(23.4) ser(24.0) un(25.1) animal(25.9) sense(28.1) plomes!.(29.7) I(31.9) se’n(32.4) van(33.4) a(34.6) veure(35.3) les(36.7) vaques.(37.7) (38.7)";
+
+
+"NARRATOR_PAGE_7_MP3_SLOW"  = "narrador07_slow_ca.mp3";
+"NARRATOR_PAGE_7_MP3_FAST"  = "narrador07_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 8---------
+"NARRATOR_PAGE_8_TEXT"      = "Les vaques estan molt enfeinades. Una vaca menja farratge i l’altra, en mastega. I diuen que elles no han estat les lladres de plomes.";
+
+"NARRATOR_PAGE_8_TIME_SLOW" = "Les(0.3) vaques(1.3) estan(3.1) molt(4.8) enfeinades.(5.9) Una(9.4) vaca(10.6) menja(12.2) farratge(13.8) i(16.1) l’altra,(16.8) en(18.5) mastega.(19.3) I(22.3) diuen(23.0) que(24.8) elles(25.8) no(27.4) han(28.5) estat(29.5) les(31.1) lladres(32.1) de(34.0) plomes.(35.1) (37.1)";
+
+
+"NARRATOR_PAGE_8_MP3_SLOW"  = "narrador08_slow_ca.mp3";
+"NARRATOR_PAGE_8_MP3_FAST"  = "narrador08_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 9---------
+"NARRATOR_PAGE_9_TEXT"      = "Una vaca és munyida per una munyidora i l’altra espera el torn. Elles no han robat les plomes. De fet, mai no han robat res de res. Però a mi sempre m’hauria fet il•lusió un barret de plomes, diu una.";
+
+"NARRATOR_PAGE_9_TIME_SLOW" = "Una(0.4) vaca(2.1) és(4.0) munyida(5.2) per(7.7) una(8.6) munyidora(10.2) i(13.1) l’altra(13.9) espera(15.7) el(17.9) torn.(18.8) Elles(20.7) no(22.3) han(23.3) robat(24.1) les(25.7) plomes.(26.7) De(28.9) fet,(29.5) mai(31.0) no(31.8) han(32.8) robat(33.5) res(34.9) de(35.8) res.(36.4) Però(37.9) a(38.9) mi(39.7) sempre(41.1) m’hauria(42.7) fet(44.8) il•lusió(45.6) un(47.6) barret(48.0) de(49.3) plomes,(50.2) diu(51.7) una.(52.7) (54.7)";
+
+
+"NARRATOR_PAGE_9_MP3_SLOW"  = "narrador09_slow_ca.mp3";
+"NARRATOR_PAGE_9_MP3_FAST"  = "narrador09_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 10---------
+"NARRATOR_PAGE_10_TEXT"      = "Arriben al paller i hi troben els gats, mandrejant. Entre badalls, els mixos diuen que ells no en saben res de res, d’unes plomes. Els gats de camp, més llestos que els de ciutat, ens mengem les bèsties amb plomes i tot, diu un.";
+
+"NARRATOR_PAGE_10_TIME_SLOW" = "Arriben(0.3) al(2.5) paller(3.2) i(4.8) hi(5.4) troben(6.1) els(7.6) gats,(8.3) mandrejant.(9.1) Entre(12.2) badalls,(13.3) els(15.4) mixos(16.1) diuen(17.9) que(19.6) ells(20.4) no(21.4) en(22.2) saben(23.0) res(24.3) de(25.0) res,(25.6) d’unes(26.6) plomes.(27.8) Els(29.6) gats(30.2) de(31.0) camp,(31.7) més(32.9) llesto (33.6) que(35.0) els(35.6) de(36.3) ciutat,(36.6) ens(38.7) mengem(39.2) les(40.4) bèsties(41.4) amb(42.7) plomes(43.4) i(45.0) tot,(45.7) diu(46.7) un.(47.4) (48.4)";
+
+
+"NARRATOR_PAGE_10_MP3_SLOW"  = "narrador10_slow_ca.mp3";
+"NARRATOR_PAGE_10_MP3_FAST"  = "narrador10_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 11---------
+"NARRATOR_PAGE_11_TEXT"      = "Els tres gats es miren en Línux amb ràbia i ell se’ls mira amb insolència. De sobte, uns crits terribles impedeixen que s’esbatussin. Algú crida: les meves plomes!";
+
+"NARRATOR_PAGE_11_TIME_SLOW" = "Els(0.5) tres(1.2) gats(2.1) es(3.3) miren(4.0) en(5.6) Línux(6.2) amb(7.8) ràbia(8.6) i(10.9) ell(11.6) se’ls(12.5) mira(13.5) amb(15.1) insolència.(15.9) De(19.7) sobte,(20.3) uns(22.1) crits(22.8) terribles(23.9) impedeixen(26.7) que(29.8) s’esbatussin.(30.5) Algú(34.3) crida:(35.6) les(37.5) meves(38.2) plomes!(39.9) (49.9)";
+
+
+"NARRATOR_PAGE_11_MP3_SLOW"  = "narrador11_slow_ca.mp3";
+"NARRATOR_PAGE_11_MP3_FAST"  = "narrador11_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 12---------
+"NARRATOR_PAGE_12_TEXT"      = "Sota la pomera troben el paó amb la meravellosa cua estesa. Però, oh!, hi té un forat al mig. Això vol dir que a ell també li han robat algunes plomes!";
+
+"NARRATOR_PAGE_12_TIME_SLOW" = "Sota(0.3) la(1.6) pomera(2.6) troben(5.0) el(6.4) paó(7.2) amb(8.9) la(9.6) meravellosa(10.1) cua(14.0) estesa.(15.4) Però,(18.0) oh!,(19.4) hi(20.6) té(21.3) un(22.1) forat(22.6) al(24.1) mig.(24.7) Això(27.4) vol(28.9) dir(29.5) que(30.6) a(31.3) ell(32.0) també(32.9) li(34.2) han(35.2) robat(35.9) algunes(37.5) plomes!(39.6) (40.6)";
+
+
+"NARRATOR_PAGE_12_MP3_SLOW"  = "narrador12_slow_ca.mp3";
+"NARRATOR_PAGE_12_MP3_FAST"  = "narrador12_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 13---------
+"NARRATOR_PAGE_13_TEXT"      = "Un conill treu el musell per la tanca per dir que això deu ser cosa de la guineu. La Noa i en Línux se l'escolten: per fi algú té un sospitós! El conill diu que la guineu sempre ronda el galliner.";
+
+"NARRATOR_PAGE_13_TIME_SLOW" = "Un(0.4) conill(1.0) treu(2.5) el(3.3) musell(4.0) per(5.7) la(6.4) tanca(7.2) per(8.7) dir(9.4) que(10.2) això(11.17) deu(12.6) ser(13.4) cosa(14.5) de(15.9) la(16.6) guineu.(17.4) La(19.8) Noa(20.5) i(22.0) en(22.7) Línux(23.4) se(24.9) l'escolten:(25.8) per(28.6) fi(29.3) algú(30.2) té(31.7) un(32.5) sospitós!(33.2) El(37.8) conill(38.5) diu(40.0) que(40.9) la(41.6) guineu(42.4) sempre(44.2) ronda(45.8) el(47.4) galliner.(48.3) (49.3)";
+
+
+"NARRATOR_PAGE_13_MP3_SLOW"  = "narrador13_slow_ca.mp3";
+"NARRATOR_PAGE_13_MP3_FAST"  = "narrador13_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 14---------
+"NARRATOR_PAGE_14_TEXT"      = "De dins de la llenyera se sent una veu ronca. Sóc la guineu, diu. Rondo a la vora del galliner, per cruspir-me les gallines i no pas per robar plomes. Potser que cridem el gos, que l’espanti, diu el conill.";
+
+"NARRATOR_PAGE_14_TIME_SLOW" = "De(0.4) dins(1.1) de(2.0) la(2.8) llenyera(3.6) se(6.2) sent(7.0) una(8.1) veu(9.8) ronca.(10.8) Sóc(13.6) la(14.6) guineu,(15.4) diu.(17.3) Rondo(19.1) a(20.8) la(21.5) vora(22.4) del(24.0) galliner,(24.9) per(27.7) cruspir-me(28.3) les(30.7) gallines(31.4) i(34.1) no(34.8) pas(35.8) per(36.8) robar(37.3) plomes.(39.1) Potser(42.8) que(44.4) cridem(45.1) el(46.7) gos,(47.4) que(48.6) l’espanti,(49.3) diu(51.7) el(52.9) conill.(53.7) (54.7)";
+
+
+"NARRATOR_PAGE_14_MP3_SLOW"  = "narrador14_slow_ca.mp3";
+"NARRATOR_PAGE_14_MP3_FAST"  = "narrador14_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 15---------
+"NARRATOR_PAGE_15_TEXT"      = "El gos pren en Línux pel lladre de plomes. Li ensenya les dents com si el volgués mossegar. La Noa li diu que el seu gat no ha estat, que el deixi en pau.";
+
+"NARRATOR_PAGE_15_TIME_SLOW" = "El(0.3) gos(1.0) pren(2.0) en(2.9) Línux(3.4) pel(5.3) lladre(6.2) de(7.9) plomes.(8.8) Li(11.1) ensenya(11.8) les(14.1) dents(15.0) com(16.3) si(17.0) el(18.0) volgués(18.8) mossegar.(20.4) La(23.7) Noa(24.5) li(25.8) diu(26.4) que(27.7) el(28.4) seu(29.0) gat(29.8) no(30.9) ha(31.4) estat,(32.0) que(33.9) el(34.6) deixi(35.4) en(37.2) pau.(38.2) (39.2)";
+
+
+"NARRATOR_PAGE_15_MP3_SLOW"  = "narrador15_slow_ca.mp3";
+"NARRATOR_PAGE_15_MP3_FAST"  = "narrador15_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 16---------
+"NARRATOR_PAGE_16_TEXT"      = "El cavall diu que ha vist una cua cargolada que arrencava a córrer. Un porquet que ens espiava, diu la Noa. El cavall els diu que trobaran porcs a la granja del costat.";
+
+"NARRATOR_PAGE_16_TIME_SLOW" = "El(0.3) cavall(1.0) diu(2.7) que(4.0) ha(4.9) vist(5.5) una(6.5) cua(7.9) cargolada(9.3) que(12.3) arrencava(13.1) a(15.9) córrer.(16.7) Un(19.1) porquet(19.7) que(21.3) ens(22.0) espiava,(22.7) diu(25.4) la(26.6) Noa.(27.4) El(29.7) cavall(30.4) els(32.0) diu(32.8) que(33.9) trobaran(34.6) porcs(36.5) a(37.5) la(38.1) granja(38.8) del(40.4) costat.(41.4) (42.4)";
+
+
+"NARRATOR_PAGE_16_MP3_SLOW"  = "narrador16_slow_ca.mp3";
+"NARRATOR_PAGE_16_MP3_FAST"  = "narrador16_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 17---------
+"NARRATOR_PAGE_17_TEXT"      = "A la cort hi troben porcs, truges i porquets, però res més. Ei, un moment!, diu la Noa mirant cap al fons de la cort. Hi ha un porquet assegut a sobre...";
+
+"NARRATOR_PAGE_17_TIME_SLOW" = "A(0.3) la(0.7) cort(1.6) hi(2.8) troben(3.3) porcs,(4.7) truges(6.2) i(7.9) porquets,(8.5) però(10.3) res(11.3) més.(12.1) Ei,(13.9) un(15.1) moment!,(15.6) diu(17.5) la(18.0) Noa(18.7) mirant(20.2) cap(21.3) al(22.1) fons(22.6) de(23.4) la(23.9) cort.(24.6) Hi(26.4) ha(26.9) un(27.4) porquet(28.0) assegut(29.8) a(31.6) sobre...(32.2) (33.2)";
+
+
+"NARRATOR_PAGE_17_MP3_SLOW"  = "narrador17_slow_ca.mp3";
+"NARRATOR_PAGE_17_MP3_FAST"  = "narrador17_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 18---------
+"NARRATOR_PAGE_18_TEXT"      = "Has estat tu!, criden en Línux i la Noa alhora, assenyalant les plomes. El porquet es posa vermell i reconeix que les ha robades ell. Són per fer-me’n un barret; el necessito per anar a una festa a la ciutat.";
+
+"NARRATOR_PAGE_18_TIME_SLOW" = "Has(0.4) estat(1.1) tu!,(2.6) criden(3.7) en(5.0) Línux(5.6) i(7.1) la(7.6) Noa(8.5) alhora,(9.9) assenyalant(12.1) les(14.8) plomes.(15.8) El(18.2) porquet(18.7) es(20.0) posa(20.7) vermell(21.8) i(23.5) reconeix(24.1) que(26.2) les(26.6) ha(27.4) robades(28.0) ell.(29.7) Són(31.9) per(32.5) fer-me’n(33.0) un(34.3) barret;(35.0) el(36.9) necessito(37.5) per(40.1) anar(40.8) a(42.2) una(42.8) festa(43.8) a(45.2) la(45.8) ciutat.(46.4) (47.4)";
+
+
+"NARRATOR_PAGE_18_MP3_SLOW"  = "narrador18_slow_ca.mp3";
+"NARRATOR_PAGE_18_MP3_FAST"  = "narrador18_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 19---------
+"NARRATOR_PAGE_19_TEXT"      = "Una festa d’aniversari per celebrar que faig un any. Però si tu sol no hi pots anar, a la ciutat, diu la Noa. Deixa’m que rumiï una solució, diu ella quan veu que el garrí fa el petarrell.";
+
+"NARRATOR_PAGE_19_TIME_SLOW" = "Una(0.4) festa(1.5) d’aniversari(3.0) per(6.2) celebrar(6.4) que(8.9) faig(9.4) un(10.4) any.(11.2) Però(13.2) si(14.0) tu(14.9) sol(15.5) no(16.1) hi(16.8) pots(17.5) anar,(18.2) a(19.6) la(20.1) ciutat,(20.5) diu(22.4) la(23.1) Noa.(23.6) Deixa’m(25.5) que(26.9) rumiï(27.6) una(29.5) solució,(30.4) diu(33.1) ella(34.4) quan(35.8) veu (36.8) que(38.0) el(38.9) garrí(39.7) fa(41.2) el(41.9) petarrell.(42.6) (43.6)";
+
+
+"NARRATOR_PAGE_19_MP3_SLOW"  = "narrador19_slow_ca.mp3";
+"NARRATOR_PAGE_19_MP3_FAST"  = "narrador19_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 20---------
+"NARRATOR_PAGE_20_TEXT"      = "I se’n van a parlar amb els ocells. De manera que ha estat aquest trapella, diu el paó. Va!, que se les quedi. Al capdavall, ens en sortiran de noves a l’hivern.";
+
+"NARRATOR_PAGE_20_TIME_SLOW" = "I(0.5) se’n(1.0) van(1.8) a(2.7) parlar(3.2) amb(4.8) els(5.4) ocells.(6.0) De(8.8) manera(9.3) que(11.3) ha(11.9) estat(12.3) aquest(13.6) trapella,(14.9) diu(16.9) el(17.8) paó.(18.5) Va!,(20.3) que(21.6) se(22.2) les(23.0) quedi.(23.9) Al(25.7) capdavall,(26.4) ens(28.8) en(29.4) sortiran(29.8) de(31.5) noves(32.2) a(34.0) l’hivern.(34.5) (35.5)";
+
+
+"NARRATOR_PAGE_20_MP3_SLOW"  = "narrador20_slow_ca.mp3";
+"NARRATOR_PAGE_20_MP3_FAST"  = "narrador20_fast_ca.mp3";
+
+
+//----NARRATOR PAGE 21---------
+"NARRATOR_PAGE_21_TEXT"      = "Com que s’ha resolt el misteri, ja ningú no està empipat amb el porquet. Li preparen una festa d’aniversari amb pastís i espelma inclosos. El garrí bufa l’espelma, mentre en Línux s’asseu ben lluny del gos.";
+
+"NARRATOR_PAGE_21_TIME_SLOW" = "Com(0.3) que(1.1) s’ha(1.5) resolt(2.2) el(3.6) misteri,(4.0) ja(6.3) ningú(6.9) no(8.4) està(8.9) empipat(10.3) amb(12.2) el(12.7) porquet.(13.4) Li(15.9) preparen(16.6) una(18.7) festa(19.7) d’aniversari(21.3) amb(24.7) pastís(25.3) i(27.2) espelma(27.9) inclosos.(30.3) El(33.2) garrí(33.8) bufa(35.1) l’espelma,(36.3) mentre(38.3) en(39.7) Línux(40.3) s’asseu(41.6) ben(42.9) lluny(43.8) del(44.6) gos.(45.6) (46.6)";
+
+
+"NARRATOR_PAGE_21_MP3_SLOW"  = "narrador21_slow_ca.mp3";
+"NARRATOR_PAGE_21_MP3_FAST"  = "narrador21_fast_ca.mp3";
+
