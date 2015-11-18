@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6234141BFD0F8C008DAFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234131BFD0F8C008DAFEE /* main.m */; };
+		4A6234171BFD0F8C008DAFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234161BFD0F8C008DAFEE /* AppDelegate.m */; };
+		4A62341A1BFD0F8C008DAFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234191BFD0F8C008DAFEE /* ViewController.m */; };
+		4A62341D1BFD0F8C008DAFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A62341B1BFD0F8C008DAFEE /* Main.storyboard */; };
+		4A62341F1BFD0F8C008DAFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A62341E1BFD0F8C008DAFEE /* Assets.xcassets */; };
+		4A6234221BFD0F8C008DAFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6234201BFD0F8C008DAFEE /* LaunchScreen.storyboard */; };
+		4A62342D1BFD0F8D008DAFEE /* LibroDeNoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */; };
+		4A6234381BFD0F8D008DAFEE /* LibroDeNoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6234291BFD0F8D008DAFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6234071BFD0F8C008DAFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A62340E1BFD0F8C008DAFEE;
+			remoteInfo = LibroDeNoa;
+		};
+		4A6234341BFD0F8D008DAFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6234071BFD0F8C008DAFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A62340E1BFD0F8C008DAFEE;
+			remoteInfo = LibroDeNoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A62340F1BFD0F8C008DAFEE /* LibroDeNoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibroDeNoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6234131BFD0F8C008DAFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A6234151BFD0F8C008DAFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A6234161BFD0F8C008DAFEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A6234181BFD0F8C008DAFEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A6234191BFD0F8C008DAFEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A62341C1BFD0F8C008DAFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A62341E1BFD0F8C008DAFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A6234211BFD0F8C008DAFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A6234231BFD0F8C008DAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6234281BFD0F8D008DAFEE /* LibroDeNoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibroDeNoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibroDeNoaTests.m; sourceTree = "<group>"; };
+		4A62342E1BFD0F8D008DAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6234331BFD0F8D008DAFEE /* LibroDeNoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibroDeNoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibroDeNoaUITests.m; sourceTree = "<group>"; };
+		4A6234391BFD0F8D008DAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A62340C1BFD0F8C008DAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6234251BFD0F8D008DAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6234301BFD0F8D008DAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6234061BFD0F8C008DAFEE = {
+			isa = PBXGroup;
+			children = (
+				4A6234111BFD0F8C008DAFEE /* LibroDeNoa */,
+				4A62342B1BFD0F8D008DAFEE /* LibroDeNoaTests */,
+				4A6234361BFD0F8D008DAFEE /* LibroDeNoaUITests */,
+				4A6234101BFD0F8C008DAFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A6234101BFD0F8C008DAFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A62340F1BFD0F8C008DAFEE /* LibroDeNoa.app */,
+				4A6234281BFD0F8D008DAFEE /* LibroDeNoaTests.xctest */,
+				4A6234331BFD0F8D008DAFEE /* LibroDeNoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6234111BFD0F8C008DAFEE /* LibroDeNoa */ = {
+			isa = PBXGroup;
+			children = (
+				4A6234151BFD0F8C008DAFEE /* AppDelegate.h */,
+				4A6234161BFD0F8C008DAFEE /* AppDelegate.m */,
+				4A6234181BFD0F8C008DAFEE /* ViewController.h */,
+				4A6234191BFD0F8C008DAFEE /* ViewController.m */,
+				4A62341B1BFD0F8C008DAFEE /* Main.storyboard */,
+				4A62341E1BFD0F8C008DAFEE /* Assets.xcassets */,
+				4A6234201BFD0F8C008DAFEE /* LaunchScreen.storyboard */,
+				4A6234231BFD0F8C008DAFEE /* Info.plist */,
+				4A6234121BFD0F8C008DAFEE /* Supporting Files */,
+			);
+			path = LibroDeNoa;
+			sourceTree = "<group>";
+		};
+		4A6234121BFD0F8C008DAFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6234131BFD0F8C008DAFEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A62342B1BFD0F8D008DAFEE /* LibroDeNoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */,
+				4A62342E1BFD0F8D008DAFEE /* Info.plist */,
+			);
+			path = LibroDeNoaTests;
+			sourceTree = "<group>";
+		};
+		4A6234361BFD0F8D008DAFEE /* LibroDeNoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */,
+				4A6234391BFD0F8D008DAFEE /* Info.plist */,
+			);
+			path = LibroDeNoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A62340E1BFD0F8C008DAFEE /* LibroDeNoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62343C1BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoa" */;
+			buildPhases = (
+				4A62340B1BFD0F8C008DAFEE /* Sources */,
+				4A62340C1BFD0F8C008DAFEE /* Frameworks */,
+				4A62340D1BFD0F8C008DAFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibroDeNoa;
+			productName = LibroDeNoa;
+			productReference = 4A62340F1BFD0F8C008DAFEE /* LibroDeNoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6234271BFD0F8D008DAFEE /* LibroDeNoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62343F1BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaTests" */;
+			buildPhases = (
+				4A6234241BFD0F8D008DAFEE /* Sources */,
+				4A6234251BFD0F8D008DAFEE /* Frameworks */,
+				4A6234261BFD0F8D008DAFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A62342A1BFD0F8D008DAFEE /* PBXTargetDependency */,
+			);
+			name = LibroDeNoaTests;
+			productName = LibroDeNoaTests;
+			productReference = 4A6234281BFD0F8D008DAFEE /* LibroDeNoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A6234321BFD0F8D008DAFEE /* LibroDeNoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6234421BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaUITests" */;
+			buildPhases = (
+				4A62342F1BFD0F8D008DAFEE /* Sources */,
+				4A6234301BFD0F8D008DAFEE /* Frameworks */,
+				4A6234311BFD0F8D008DAFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6234351BFD0F8D008DAFEE /* PBXTargetDependency */,
+			);
+			name = LibroDeNoaUITests;
+			productName = LibroDeNoaUITests;
+			productReference = 4A6234331BFD0F8D008DAFEE /* LibroDeNoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6234071BFD0F8C008DAFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jose Manuel Ramírez Martínez";
+				TargetAttributes = {
+					4A62340E1BFD0F8C008DAFEE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4A6234271BFD0F8D008DAFEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4A62340E1BFD0F8C008DAFEE;
+					};
+					4A6234321BFD0F8D008DAFEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4A62340E1BFD0F8C008DAFEE;
+					};
+				};
+			};
+			buildConfigurationList = 4A62340A1BFD0F8C008DAFEE /* Build configuration list for PBXProject "LibroDeNoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A6234061BFD0F8C008DAFEE;
+			productRefGroup = 4A6234101BFD0F8C008DAFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A62340E1BFD0F8C008DAFEE /* LibroDeNoa */,
+				4A6234271BFD0F8D008DAFEE /* LibroDeNoaTests */,
+				4A6234321BFD0F8D008DAFEE /* LibroDeNoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A62340D1BFD0F8C008DAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6234221BFD0F8C008DAFEE /* LaunchScreen.storyboard in Resources */,
+				4A62341F1BFD0F8C008DAFEE /* Assets.xcassets in Resources */,
+				4A62341D1BFD0F8C008DAFEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6234261BFD0F8D008DAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6234311BFD0F8D008DAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A62340B1BFD0F8C008DAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A62341A1BFD0F8C008DAFEE /* ViewController.m in Sources */,
+				4A6234171BFD0F8C008DAFEE /* AppDelegate.m in Sources */,
+				4A6234141BFD0F8C008DAFEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6234241BFD0F8D008DAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A62342D1BFD0F8D008DAFEE /* LibroDeNoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62342F1BFD0F8D008DAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6234381BFD0F8D008DAFEE /* LibroDeNoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A62342A1BFD0F8D008DAFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A62340E1BFD0F8C008DAFEE /* LibroDeNoa */;
+			targetProxy = 4A6234291BFD0F8D008DAFEE /* PBXContainerItemProxy */;
+		};
+		4A6234351BFD0F8D008DAFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A62340E1BFD0F8C008DAFEE /* LibroDeNoa */;
+			targetProxy = 4A6234341BFD0F8D008DAFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A62341B1BFD0F8C008DAFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A62341C1BFD0F8C008DAFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A6234201BFD0F8C008DAFEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6234211BFD0F8C008DAFEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A62343A1BFD0F8D008DAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4A62343B1BFD0F8D008DAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A62343D1BFD0F8D008DAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibroDeNoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A62343E1BFD0F8D008DAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibroDeNoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A6234401BFD0F8D008DAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LibroDeNoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibroDeNoa.app/LibroDeNoa";
+			};
+			name = Debug;
+		};
+		4A6234411BFD0F8D008DAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LibroDeNoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibroDeNoa.app/LibroDeNoa";
+			};
+			name = Release;
+		};
+		4A6234431BFD0F8D008DAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LibroDeNoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibroDeNoa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4A6234441BFD0F8D008DAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LibroDeNoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibroDeNoa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A62340A1BFD0F8C008DAFEE /* Build configuration list for PBXProject "LibroDeNoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62343A1BFD0F8D008DAFEE /* Debug */,
+				4A62343B1BFD0F8D008DAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A62343C1BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62343D1BFD0F8D008DAFEE /* Debug */,
+				4A62343E1BFD0F8D008DAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A62343F1BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6234401BFD0F8D008DAFEE /* Debug */,
+				4A6234411BFD0F8D008DAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A6234421BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6234431BFD0F8D008DAFEE /* Debug */,
+				4A6234441BFD0F8D008DAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6234071BFD0F8C008DAFEE /* Project object */;
+}
