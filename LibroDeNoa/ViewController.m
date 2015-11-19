@@ -71,7 +71,7 @@
     
     NSArray *images = @[tronc1, tronc2, tronc3];
     [_tietCos setAnimationImages:images];
-    [_tietCos setAnimationDuration:1.5];
+    [_tietCos setAnimationDuration:1.0];
     [_tietCos setAnimationRepeatCount:1];
 }
 

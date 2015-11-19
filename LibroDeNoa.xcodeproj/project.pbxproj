@@ -878,6 +878,7 @@
 				TargetAttributes = {
 					4A62340E1BFD0F8C008DAFEE = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = LM5274S9QL;
 					};
 					4A6234271BFD0F8D008DAFEE = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -1243,10 +1244,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LibroDeNoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1254,10 +1258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LibroDeNoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jmramirez.LibroDeNoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -1328,6 +1335,7 @@
 				4A62343E1BFD0F8D008DAFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A62343F1BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaTests" */ = {
 			isa = XCConfigurationList;
@@ -1336,6 +1344,7 @@
 				4A6234411BFD0F8D008DAFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6234421BFD0F8D008DAFEE /* Build configuration list for PBXNativeTarget "LibroDeNoaUITests" */ = {
 			isa = XCConfigurationList;
@@ -1344,6 +1353,7 @@
 				4A6234441BFD0F8D008DAFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
