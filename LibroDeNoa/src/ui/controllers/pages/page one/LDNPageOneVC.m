@@ -219,8 +219,14 @@
 - (void)goToNextPage:(UIButton *)button;
 {
     NSLog(@"Next page button clicked");
-    LDNPageTwoVC *pageTwoVC = [[LDNPageTwoVC alloc] init];
-    [self presentViewController:pageTwoVC animated:NO completion:nil];
+    [self performSegueWithIdentifier:@"pageOneToPageTwoSegue" sender:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"pageOneToPageTwoSegue"]) {
+        LDNPageTwoVC *pageTwoVC = segue.destinationViewController;
+    }
 }
 
 @end
