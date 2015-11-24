@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4A0A60B11C0245D300802A94 /* LDNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A60B01C0245D300802A94 /* LDNHelpers.m */; };
 		4A0A60B51C024F1100802A94 /* LDNPageTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A60B41C024F1100802A94 /* LDNPageTwoVC.m */; };
+		4A2DDCC31C0518F300886544 /* menuViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2DDCC51C0518F300886544 /* menuViewVC.xib */; };
+		4A2DDCD01C051BEB00886544 /* menuViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DDCCF1C051BEB00886544 /* menuViewVC.m */; };
 		4A62342D1BFD0F8D008DAFEE /* LibroDeNoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */; };
 		4A6234381BFD0F8D008DAFEE /* LibroDeNoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */; };
 		4A79F9531C03D8A40087D5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A79F9521C03D8A40087D5EB /* Main.storyboard */; };
@@ -94,6 +96,11 @@
 		4A0A60B01C0245D300802A94 /* LDNHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNHelpers.m; sourceTree = "<group>"; };
 		4A0A60B31C024F1100802A94 /* LDNPageTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNPageTwoVC.h; sourceTree = "<group>"; };
 		4A0A60B41C024F1100802A94 /* LDNPageTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNPageTwoVC.m; sourceTree = "<group>"; };
+		4A2DDCC41C0518F300886544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/menuViewVC.xib; sourceTree = "<group>"; };
+		4A2DDCCB1C051A2000886544 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/menuViewVC.strings; sourceTree = "<group>"; };
+		4A2DDCCD1C051A2E00886544 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/menuViewVC.strings; sourceTree = "<group>"; };
+		4A2DDCCE1C051BEB00886544 /* menuViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuViewVC.h; sourceTree = "<group>"; };
+		4A2DDCCF1C051BEB00886544 /* menuViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuViewVC.m; sourceTree = "<group>"; };
 		4A62340F1BFD0F8C008DAFEE /* LibroDeNoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibroDeNoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6234281BFD0F8D008DAFEE /* LibroDeNoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibroDeNoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibroDeNoaTests.m; sourceTree = "<group>"; };
@@ -213,6 +220,9 @@
 		4A1499C81C0253AB00934040 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				4A2DDCC51C0518F300886544 /* menuViewVC.xib */,
+				4A2DDCCE1C051BEB00886544 /* menuViewVC.h */,
+				4A2DDCCF1C051BEB00886544 /* menuViewVC.m */,
 			);
 			path = menu;
 			sourceTree = "<group>";
@@ -671,6 +681,7 @@
 				4AD07F151C01E3CF0030DC81 /* B_ID_8_ca.mp3 in Resources */,
 				4AD07F061C01E3CF0030DC81 /* B_ID_12_sp.mp3 in Resources */,
 				4AD07F0B1C01E3CF0030DC81 /* B_ID_3_ca.mp3 in Resources */,
+				4A2DDCC31C0518F300886544 /* menuViewVC.xib in Resources */,
 				4AD07F181C01E3CF0030DC81 /* B_ID_9_sp.mp3 in Resources */,
 				4AD07F251C01E3CF0030DC81 /* narrador04_fast_ca.mp3 in Resources */,
 				4AD07F271C01E3CF0030DC81 /* ambientpag2_1.mp3 in Resources */,
@@ -726,6 +737,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2DDCD01C051BEB00886544 /* menuViewVC.m in Sources */,
 				4A0A60B11C0245D300802A94 /* LDNHelpers.m in Sources */,
 				4AE6FC4D1C01F036008F9FCB /* main.m in Sources */,
 				4AE6FC4B1C01F036008F9FCB /* AppDelegate.m in Sources */,
@@ -768,6 +780,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4A2DDCC51C0518F300886544 /* menuViewVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2DDCC41C0518F300886544 /* Base */,
+				4A2DDCCB1C051A2000886544 /* es */,
+				4A2DDCCD1C051A2E00886544 /* ca */,
+			);
+			name = menuViewVC.xib;
+			sourceTree = "<group>";
+		};
 		4AE6FC5B1C01F971008F9FCB /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

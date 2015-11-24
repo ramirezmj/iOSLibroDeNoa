@@ -7,7 +7,7 @@
 //
 
 #import "LDNBaseVC.h"
-
+#import "menuViewVC.h"
 @interface LDNBaseVC ()
 
 @property (strong, nonatomic) UIButton *menuButton;
@@ -29,6 +29,16 @@
                                              selector:@selector(notificationCallBack:)
                                                  name:nil object:nil];
     [self setupOverlayMenuButtons];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    CGRect rect = CGRectMake(535, 25, 0, 0);
+    _menuView = [[menuViewVC alloc] initWithFrameAux:rect];
+    [self.view addSubview:_menuView];
+    [_menuView setHidden:YES];
 }
 
 - (void)dealloc
@@ -81,7 +91,10 @@
     [self.view addSubview:_previousPageButton];
 }
 
-- (void)openMenu:(UIButton *)button{}
+- (void)openMenu:(UIButton *)button
+{
+    [LDNHelpers changeViewVisibility:_menuView playingSound:nil];
+}
 
 
 

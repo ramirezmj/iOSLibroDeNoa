@@ -26,4 +26,16 @@
     [self dismissViewControllerAnimated:NO completion:nil];
 }
 
+- (IBAction)purchaseButtonPressed:(UIButton *)sender
+{
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Lazy Error" message:@"You are not able to continue with the purchase because the dev hans't coded this part" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
+    
+    [alertController addAction:ok];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+}
+
 @end
