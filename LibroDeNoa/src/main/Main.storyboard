@@ -158,6 +158,14 @@
                                             <action selector="didPressTietCap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNK-s0-SrT"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zHe-Qm-WOx">
+                                        <rect key="frame" x="0.0" y="236" width="69" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="didPressTietAxe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Nf-nM-tl2"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
