@@ -22,14 +22,11 @@
  sargantana      x:950 y:181 width:39 height:81
  */
 
-#import <UIKit/UIKit.h>
 #import "LDNBaseVC.h"
 
-@interface LDNPageOne : LDNBaseVC {
+@interface LDNPageOneVC : LDNBaseVC {
     BOOL tietEstatic;
 }
-
-
 
 @end
 

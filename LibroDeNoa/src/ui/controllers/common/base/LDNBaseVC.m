@@ -10,28 +10,79 @@
 
 @interface LDNBaseVC ()
 
+@property (strong, nonatomic) UIButton *menuButton;
+
+@property (nonatomic, assign) CGFloat leftPadding;
+@property (nonatomic, assign) CGFloat rightPadding;
+@property (nonatomic, assign) CGFloat menuButtonTopPadding;
+@property (nonatomic, assign) CGFloat nextPageBottomPadding;
+
 @end
 
 @implementation LDNBaseVC
 
+#pragma mark - Life cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(notificationCallBack:)
+                                                 name:nil object:nil];
+    [self setupOverlayMenuButtons];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SoundDidFinishPlayingNotification object:nil];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - Public methods
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)notificationCallBack:(NSNotification *)notification{}
+
+- (void)goToNextPage:(UIButton *)button{}
+
+- (void)goToPreviousPage:(UIButton *)button{}
+
+#pragma mark - Private methods
+
+- (void)setupOverlayMenuButtons
+{
+    _leftPadding = 30;
+    _rightPadding = self.view.bounds.size.width - 120;
+    _menuButtonTopPadding = 30;
+    _nextPageBottomPadding = self.view.bounds.size.height - 100;
+    
+    UIImage *nextPageImage = [UIImage imageNamed:@"next_page_button"];
+    CGRect nextPageRect = CGRectMake(_rightPadding, _nextPageBottomPadding, nextPageImage.size.width/2, nextPageImage.size.height/2);
+    
+    self.nextPageButton = [[UIButton alloc] initWithFrame:nextPageRect];
+    [_nextPageButton setBackgroundImage:nextPageImage forState:UIControlStateNormal];
+    [_nextPageButton addTarget:self action:@selector(goToNextPage:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_nextPageButton];
+    
+    UIImage *menuButtonImage = [UIImage imageNamed:@"menu_button"];
+    CGRect menuButtonRect = CGRectMake(_rightPadding, _menuButtonTopPadding, menuButtonImage.size.width/2, menuButtonImage.size.height/2);
+    
+    self.menuButton = [[UIButton alloc] initWithFrame:menuButtonRect];
+    [_menuButton setBackgroundImage:menuButtonImage forState:UIControlStateNormal];
+    [_menuButton addTarget:self action:@selector(openMenu:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_menuButton];
 }
-*/
+
+- (void)setupPreviousPageButton
+{
+    UIImage *previousPageImage = [UIImage imageNamed:@"previous_page_button"];
+    CGRect previousPageRect = CGRectMake(_leftPadding, _nextPageBottomPadding, previousPageImage.size.width/2, previousPageImage.size.height/2);
+    
+    self.previousPageButton = [[UIButton alloc] initWithFrame:previousPageRect];
+    [_previousPageButton setBackgroundImage:previousPageImage forState:UIControlStateNormal];
+    [_previousPageButton addTarget:self action:@selector(goToPreviousPage:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_previousPageButton];
+}
+
+- (void)openMenu:(UIButton *)button{}
+
+
 
 @end

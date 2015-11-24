@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--Page One-->
+        <!--Page OneVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LDNPageOne" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LDNPageOneVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -17,7 +17,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1064" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01-Granja-RET" id="pXG-8u-HCw" userLabel="Granja">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01-Granja-RET" id="pXG-8u-HCw">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -27,19 +27,40 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="b4j-kK-WUc" userLabel="Tieta">
-                                <rect key="frame" x="644" y="60" width="334" height="442"/>
+                                <rect key="frame" x="644" y="38" width="380" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tieta_cap_estatica" id="Hib-ms-ncV">
-                                        <rect key="frame" x="20" y="44" width="153" height="136"/>
+                                        <rect key="frame" x="20" y="66" width="153" height="136"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tieta_estatica" id="YQq-hm-CG3" userLabel="Tieta Cos">
-                                        <rect key="frame" x="26" y="20" width="288" height="402"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tieta_estatica" id="YQq-hm-CG3">
+                                        <rect key="frame" x="26" y="42" width="288" height="402"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
+                                    <view contentMode="scaleToFill" id="0hA-gi-krT">
+                                        <rect key="frame" x="134" y="1" width="258" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bafarada06" id="uI5-Pl-giS">
+                                                <rect key="frame" x="20" y="20" width="218" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="alw-h0-CmQ">
+                                                <rect key="frame" x="77" y="31" width="152" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -48,13 +69,13 @@
                                 <rect key="frame" x="-50" y="66" width="544" height="436"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tiet_CAP_estatic" id="oOO-UR-71e">
-                                        <rect key="frame" x="267" y="20" width="119" height="102"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tiet_estatic" id="M7f-vV-uDR">
+                                        <rect key="frame" x="20" y="21" width="504" height="395"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tiet_estatic" id="M7f-vV-uDR">
-                                        <rect key="frame" x="20" y="21" width="504" height="395"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_tiet_CAP_estatic" id="oOO-UR-71e">
+                                        <rect key="frame" x="267" y="20" width="119" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
@@ -74,17 +95,17 @@
                                 <rect key="frame" x="763" y="298" width="330" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_planta Verda1" id="sI5-L5-DZY" userLabel="Planta Verda">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_planta Verda1" id="sI5-L5-DZY">
                                         <rect key="frame" x="135" y="20" width="175" height="188"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_plantes liles1" id="Xda-zm-7lN" userLabel="Plantes Liles">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_plantes liles1" id="Xda-zm-7lN">
                                         <rect key="frame" x="20" y="44" width="170" height="212"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_planta groga1" id="XMD-oy-2cA" userLabel="Planta Groga">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_planta groga1" id="XMD-oy-2cA">
                                         <rect key="frame" x="100" y="200" width="82" height="109"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -97,13 +118,13 @@
                                 <rect key="frame" x="354" y="200" width="315" height="368"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Carlota_Estatica" id="avK-zX-sMy" userLabel="Carlota Cap">
-                                        <rect key="frame" x="42" y="56" width="120" height="76"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Carlota_bici01" id="kkw-5s-Bhq">
+                                        <rect key="frame" x="20" y="20" width="275" height="328"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Carlota_bici01" id="kkw-5s-Bhq" userLabel="Carlota Cos">
-                                        <rect key="frame" x="20" y="20" width="275" height="328"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Carlota_Estatica" id="avK-zX-sMy">
+                                        <rect key="frame" x="42" y="56" width="120" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
@@ -115,7 +136,7 @@
                                 <rect key="frame" x="220" y="460" width="201" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_merli_estatic" id="bDm-ps-eZ1" userLabel="Merli">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_merli_estatic" id="bDm-ps-eZ1">
                                         <rect key="frame" x="20" y="20" width="161" height="113"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -128,7 +149,7 @@
                                 <rect key="frame" x="-55" y="407" width="333" height="269"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01 - Carret" id="6b2-rz-lGq" userLabel="Carret">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01 - Carret" id="6b2-rz-lGq">
                                         <rect key="frame" x="20" y="20" width="293" height="229"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -141,7 +162,7 @@
                                 <rect key="frame" x="615" y="18" width="128" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_ocell_estatic" id="0m2-l7-qkG" userLabel="Ocell">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_ocell_estatic" id="0m2-l7-qkG">
                                         <rect key="frame" x="20" y="20" width="88" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -154,7 +175,7 @@
                                 <rect key="frame" x="930" y="161" width="79" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Sargantana1" id="kbj-IX-MmU" userLabel="Sargantana">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Sargantana1" id="kbj-IX-MmU">
                                         <rect key="frame" x="20" y="20" width="39" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -169,19 +190,27 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="carlotaCap" destination="avK-zX-sMy" id="cFA-LM-wyq"/>
-                        <outlet property="carlotaCos" destination="kkw-5s-Bhq" id="uHV-yQ-Gaq"/>
-                        <outlet property="carret" destination="6b2-rz-lGq" id="pMS-Ob-8fd"/>
-                        <outlet property="merli" destination="bDm-ps-eZ1" id="Xjh-hQ-td6"/>
-                        <outlet property="ocell" destination="0m2-l7-qkG" id="Bnl-NA-yU2"/>
-                        <outlet property="plantaGroga" destination="XMD-oy-2cA" id="w6k-bB-V79"/>
-                        <outlet property="plantaVerda" destination="sI5-L5-DZY" id="mgT-Ql-sRx"/>
-                        <outlet property="plantesLiles" destination="Xda-zm-7lN" id="17E-NN-Pqp"/>
-                        <outlet property="sargantana" destination="kbj-IX-MmU" id="Atp-D5-JOC"/>
-                        <outlet property="tietCap" destination="oOO-UR-71e" id="BN7-yQ-cKf"/>
-                        <outlet property="tietCos" destination="M7f-vV-uDR" id="4Ev-uX-wDB"/>
-                        <outlet property="tietaCap" destination="Hib-ms-ncV" id="FNe-px-ols"/>
-                        <outlet property="tietaCos" destination="YQq-hm-CG3" id="DSh-Zh-HZN"/>
+                        <outlet property="carlotaCap" destination="avK-zX-sMy" id="Fb6-lN-cNF"/>
+                        <outlet property="carlotaContainerView" destination="crI-bi-Ssq" id="w7K-8G-wLl"/>
+                        <outlet property="carlotaCos" destination="kkw-5s-Bhq" id="cb5-fj-1Mt"/>
+                        <outlet property="carret" destination="6b2-rz-lGq" id="0Yg-iA-K0B"/>
+                        <outlet property="merli" destination="bDm-ps-eZ1" id="BVL-8f-Bhu"/>
+                        <outlet property="merliContainerView" destination="kJt-dX-rIw" id="tkX-BF-9Gf"/>
+                        <outlet property="ocell" destination="0m2-l7-qkG" id="Ka0-g0-Q1I"/>
+                        <outlet property="ocellContainerView" destination="Fvw-bs-sDd" id="fH0-Kt-BcD"/>
+                        <outlet property="plantaGroga" destination="XMD-oy-2cA" id="dju-0A-zaU"/>
+                        <outlet property="plantaVerda" destination="sI5-L5-DZY" id="wIW-nz-Llf"/>
+                        <outlet property="plantesLiles" destination="Xda-zm-7lN" id="iKm-76-0FD"/>
+                        <outlet property="sargantana" destination="kbj-IX-MmU" id="AWX-RJ-g0g"/>
+                        <outlet property="sargantanaContainerView" destination="OVF-t9-wqE" id="dDd-PK-WLH"/>
+                        <outlet property="tietCap" destination="oOO-UR-71e" id="bKL-0I-aFR"/>
+                        <outlet property="tietContainerView" destination="pkH-Kd-6my" id="zRX-kG-601"/>
+                        <outlet property="tietCos" destination="M7f-vV-uDR" id="5Uj-Kp-oVd"/>
+                        <outlet property="tietaBafaradaContainerView" destination="0hA-gi-krT" id="ffl-SW-3XR"/>
+                        <outlet property="tietaBafaradaDialogLabel" destination="alw-h0-CmQ" id="Ey4-4b-fxO"/>
+                        <outlet property="tietaCap" destination="Hib-ms-ncV" id="mhc-Rw-Eiz"/>
+                        <outlet property="tietaContainerView" destination="b4j-kK-WUc" id="Nfk-ma-84w"/>
+                        <outlet property="tietaCos" destination="YQq-hm-CG3" id="bha-yA-qHM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -204,5 +233,6 @@
         <image name="01_tiet_estatic" width="1040" height="832"/>
         <image name="01_tieta_cap_estatica" width="297" height="288"/>
         <image name="01_tieta_estatica" width="595" height="850"/>
+        <image name="bafarada06" width="841" height="267"/>
     </resources>
 </document>

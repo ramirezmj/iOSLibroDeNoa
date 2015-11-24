@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0A60B11C0245D300802A94 /* LDNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A60B01C0245D300802A94 /* LDNHelpers.m */; };
+		4A0A60B51C024F1100802A94 /* LDNPageTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A60B41C024F1100802A94 /* LDNPageTwoVC.m */; };
 		4A62342D1BFD0F8D008DAFEE /* LibroDeNoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */; };
 		4A6234381BFD0F8D008DAFEE /* LibroDeNoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */; };
+		4A79F9531C03D8A40087D5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A79F9521C03D8A40087D5EB /* Main.storyboard */; };
 		4AD07C1F1C01DE710030DC81 /* LDNBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD07C191C01DE710030DC81 /* LDNBaseVC.m */; };
-		4AD07C201C01DE710030DC81 /* LDNPageOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD07C1D1C01DE710030DC81 /* LDNPageOne.m */; };
+		4AD07C201C01DE710030DC81 /* LDNPageOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD07C1D1C01DE710030DC81 /* LDNPageOneVC.m */; };
 		4AD07C251C01DEEB0030DC81 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD07C241C01DEEB0030DC81 /* SoundManager.m */; };
 		4AD07CE41C01DFE70030DC81 /* Stanberry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD07C2E1C01DFE60030DC81 /* Stanberry.ttf */; };
 		4AD07D851C01E0A80030DC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD07D841C01E0A80030DC81 /* LaunchScreen.storyboard */; };
@@ -57,7 +60,6 @@
 		4AD07F291C01E3CF0030DC81 /* copfusta_tiet2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AD07EFF1C01E3CF0030DC81 /* copfusta_tiet2.mp3 */; };
 		4AD07F2A1C01E3CF0030DC81 /* vol_ocell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AD07F001C01E3CF0030DC81 /* vol_ocell.mp3 */; };
 		4AD080191C01E5580030DC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD080181C01E5580030DC81 /* Assets.xcassets */; };
-		4AE6FBEE1C01E92D008F9FCB /* LDNBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE6FBED1C01E92D008F9FCB /* LDNBaseVC.xib */; };
 		4AE6FBF61C01EE63008F9FCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE6FBF51C01EE63008F9FCB /* SystemConfiguration.framework */; };
 		4AE6FC381C01EEA8008F9FCB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE6FC371C01EEA8008F9FCB /* CoreFoundation.framework */; };
 		4AE6FC3A1C01EEB1008F9FCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE6FC391C01EEB1008F9FCB /* QuartzCore.framework */; };
@@ -67,7 +69,6 @@
 		4AE6FC4B1C01F036008F9FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6FC461C01F036008F9FCB /* AppDelegate.m */; };
 		4AE6FC4C1C01F036008F9FCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AE6FC471C01F036008F9FCB /* Info.plist */; };
 		4AE6FC4D1C01F036008F9FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6FC491C01F036008F9FCB /* main.m */; };
-		4AE6FC521C01F936008F9FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE6FC541C01F936008F9FCB /* Main.storyboard */; };
 		4AE6FC591C01F971008F9FCB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AE6FC5B1C01F971008F9FCB /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A0A60AF1C0245D300802A94 /* LDNHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNHelpers.h; sourceTree = "<group>"; };
+		4A0A60B01C0245D300802A94 /* LDNHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNHelpers.m; sourceTree = "<group>"; };
+		4A0A60B31C024F1100802A94 /* LDNPageTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNPageTwoVC.h; sourceTree = "<group>"; };
+		4A0A60B41C024F1100802A94 /* LDNPageTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNPageTwoVC.m; sourceTree = "<group>"; };
 		4A62340F1BFD0F8C008DAFEE /* LibroDeNoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibroDeNoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6234281BFD0F8D008DAFEE /* LibroDeNoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibroDeNoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A62342C1BFD0F8D008DAFEE /* LibroDeNoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibroDeNoaTests.m; sourceTree = "<group>"; };
@@ -96,10 +101,11 @@
 		4A6234331BFD0F8D008DAFEE /* LibroDeNoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibroDeNoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6234371BFD0F8D008DAFEE /* LibroDeNoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibroDeNoaUITests.m; sourceTree = "<group>"; };
 		4A6234391BFD0F8D008DAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A79F9521C03D8A40087D5EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4AD07C181C01DE710030DC81 /* LDNBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNBaseVC.h; sourceTree = "<group>"; };
 		4AD07C191C01DE710030DC81 /* LDNBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNBaseVC.m; sourceTree = "<group>"; };
-		4AD07C1C1C01DE710030DC81 /* LDNPageOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNPageOne.h; sourceTree = "<group>"; };
-		4AD07C1D1C01DE710030DC81 /* LDNPageOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNPageOne.m; sourceTree = "<group>"; };
+		4AD07C1C1C01DE710030DC81 /* LDNPageOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNPageOneVC.h; sourceTree = "<group>"; };
+		4AD07C1D1C01DE710030DC81 /* LDNPageOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNPageOneVC.m; sourceTree = "<group>"; };
 		4AD07C231C01DEEB0030DC81 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		4AD07C241C01DEEB0030DC81 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		4AD07C2E1C01DFE60030DC81 /* Stanberry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stanberry.ttf; sourceTree = "<group>"; };
@@ -147,7 +153,6 @@
 		4AD07EFF1C01E3CF0030DC81 /* copfusta_tiet2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copfusta_tiet2.mp3; sourceTree = "<group>"; };
 		4AD07F001C01E3CF0030DC81 /* vol_ocell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vol_ocell.mp3; sourceTree = "<group>"; };
 		4AD080181C01E5580030DC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AE6FBED1C01E92D008F9FCB /* LDNBaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDNBaseVC.xib; sourceTree = "<group>"; };
 		4AE6FBF51C01EE63008F9FCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4AE6FC371C01EEA8008F9FCB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4AE6FC391C01EEB1008F9FCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -160,9 +165,6 @@
 		4AE6FC471C01F036008F9FCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE6FC481C01F036008F9FCB /* LibroDeNoa.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibroDeNoa.pch; sourceTree = "<group>"; };
 		4AE6FC491C01F036008F9FCB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4AE6FC531C01F936008F9FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AE6FC551C01F93F008F9FCB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		4AE6FC561C01F94D008F9FCB /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
 		4AE6FC5A1C01F971008F9FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4AE6FC5C1C01F973008F9FCB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4AE6FC5D1C01F974008F9FCB /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -199,6 +201,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0A60B21C0245D900802A94 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A0A60AF1C0245D300802A94 /* LDNHelpers.h */,
+				4A0A60B01C0245D300802A94 /* LDNHelpers.m */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4A1499C81C0253AB00934040 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
 		4A6234061BFD0F8C008DAFEE = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +295,7 @@
 		4AD07C161C01DE710030DC81 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				4A1499C81C0253AB00934040 /* menu */,
 				4AD07C171C01DE710030DC81 /* base */,
 			);
 			path = common;
@@ -287,7 +306,6 @@
 			children = (
 				4AD07C181C01DE710030DC81 /* LDNBaseVC.h */,
 				4AD07C191C01DE710030DC81 /* LDNBaseVC.m */,
-				4AE6FBED1C01E92D008F9FCB /* LDNBaseVC.xib */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -304,8 +322,8 @@
 		4AD07C1B1C01DE710030DC81 /* page one */ = {
 			isa = PBXGroup;
 			children = (
-				4AD07C1C1C01DE710030DC81 /* LDNPageOne.h */,
-				4AD07C1D1C01DE710030DC81 /* LDNPageOne.m */,
+				4AD07C1C1C01DE710030DC81 /* LDNPageOneVC.h */,
+				4AD07C1D1C01DE710030DC81 /* LDNPageOneVC.m */,
 			);
 			path = "page one";
 			sourceTree = "<group>";
@@ -313,6 +331,8 @@
 		4AD07C1E1C01DE710030DC81 /* page two */ = {
 			isa = PBXGroup;
 			children = (
+				4A0A60B31C024F1100802A94 /* LDNPageTwoVC.h */,
+				4A0A60B41C024F1100802A94 /* LDNPageTwoVC.m */,
 			);
 			path = "page two";
 			sourceTree = "<group>";
@@ -322,6 +342,7 @@
 			children = (
 				4AE6FC421C01EEFA008F9FCB /* configuration */,
 				4AD07C221C01DEEB0030DC81 /* business */,
+				4A0A60B21C0245D900802A94 /* helpers */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -404,12 +425,6 @@
 		4AD07ED11C01E3CF0030DC81 /* bafarades */ = {
 			isa = PBXGroup;
 			children = (
-				4AD07ED21C01E3CF0030DC81 /* B_ID_10_ca.mp3 */,
-				4AD07ED31C01E3CF0030DC81 /* B_ID_10_sp.mp3 */,
-				4AD07ED41C01E3CF0030DC81 /* B_ID_11_ca.mp3 */,
-				4AD07ED51C01E3CF0030DC81 /* B_ID_11_sp.mp3 */,
-				4AD07ED61C01E3CF0030DC81 /* B_ID_12_ca.mp3 */,
-				4AD07ED71C01E3CF0030DC81 /* B_ID_12_sp.mp3 */,
 				4AD07ED81C01E3CF0030DC81 /* B_ID_1_ca.mp3 */,
 				4AD07ED91C01E3CF0030DC81 /* B_ID_1_sp.mp3 */,
 				4AD07EDA1C01E3CF0030DC81 /* B_ID_2_ca.mp3 */,
@@ -428,6 +443,12 @@
 				4AD07EE71C01E3CF0030DC81 /* B_ID_8_sp.mp3 */,
 				4AD07EE81C01E3CF0030DC81 /* B_ID_9_ca.mp3 */,
 				4AD07EE91C01E3CF0030DC81 /* B_ID_9_sp.mp3 */,
+				4AD07ED21C01E3CF0030DC81 /* B_ID_10_ca.mp3 */,
+				4AD07ED31C01E3CF0030DC81 /* B_ID_10_sp.mp3 */,
+				4AD07ED41C01E3CF0030DC81 /* B_ID_11_ca.mp3 */,
+				4AD07ED51C01E3CF0030DC81 /* B_ID_11_sp.mp3 */,
+				4AD07ED61C01E3CF0030DC81 /* B_ID_12_ca.mp3 */,
+				4AD07ED71C01E3CF0030DC81 /* B_ID_12_sp.mp3 */,
 			);
 			path = bafarades;
 			sourceTree = "<group>";
@@ -513,8 +534,8 @@
 				4AE6FC471C01F036008F9FCB /* Info.plist */,
 				4AE6FC481C01F036008F9FCB /* LibroDeNoa.pch */,
 				4AE6FC491C01F036008F9FCB /* main.m */,
+				4A79F9521C03D8A40087D5EB /* Main.storyboard */,
 				4AE6FC511C01F85D008F9FCB /* Base.lproj */,
-				4AE6FC541C01F936008F9FCB /* Main.storyboard */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -639,9 +660,7 @@
 				4AD07F221C01E3CF0030DC81 /* B_ID_39_ca.mp3 in Resources */,
 				4AD07F241C01E3CF0030DC81 /* BG04.07_hort_comodi.mp3 in Resources */,
 				4AD07F211C01E3CF0030DC81 /* B_ID_38_ca.mp3 in Resources */,
-				4AE6FC521C01F936008F9FCB /* Main.storyboard in Resources */,
 				4AD07F1D1C01E3CF0030DC81 /* B_ID_34_ca.mp3 in Resources */,
-				4AE6FBEE1C01E92D008F9FCB /* LDNBaseVC.xib in Resources */,
 				4AD07F0F1C01E3CF0030DC81 /* B_ID_5_ca.mp3 in Resources */,
 				4AE6FC591C01F971008F9FCB /* Localizable.strings in Resources */,
 				4AD07F291C01E3CF0030DC81 /* copfusta_tiet2.mp3 in Resources */,
@@ -662,6 +681,7 @@
 				4AD07F0A1C01E3CF0030DC81 /* B_ID_2_sp.mp3 in Resources */,
 				4AD07F1C1C01E3CF0030DC81 /* narrador01_slow_sp.mp3 in Resources */,
 				4AD07D851C01E0A80030DC81 /* LaunchScreen.storyboard in Resources */,
+				4A79F9531C03D8A40087D5EB /* Main.storyboard in Resources */,
 				4AD07F1A1C01E3CF0030DC81 /* narrador01_fast_sp.mp3 in Resources */,
 				4AD07F041C01E3CF0030DC81 /* B_ID_11_sp.mp3 in Resources */,
 				4AD07F021C01E3CF0030DC81 /* B_ID_10_sp.mp3 in Resources */,
@@ -706,10 +726,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0A60B11C0245D300802A94 /* LDNHelpers.m in Sources */,
 				4AE6FC4D1C01F036008F9FCB /* main.m in Sources */,
 				4AE6FC4B1C01F036008F9FCB /* AppDelegate.m in Sources */,
+				4A0A60B51C024F1100802A94 /* LDNPageTwoVC.m in Sources */,
 				4AD07C1F1C01DE710030DC81 /* LDNBaseVC.m in Sources */,
-				4AD07C201C01DE710030DC81 /* LDNPageOne.m in Sources */,
+				4AD07C201C01DE710030DC81 /* LDNPageOneVC.m in Sources */,
 				4AD07C251C01DEEB0030DC81 /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,16 +768,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AE6FC541C01F936008F9FCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AE6FC531C01F936008F9FCB /* Base */,
-				4AE6FC551C01F93F008F9FCB /* es */,
-				4AE6FC561C01F94D008F9FCB /* ca */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AE6FC5B1C01F971008F9FCB /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -18,6 +18,7 @@
 
 #import "LDNConstants.h"
 #import "SoundManager.h"
+#import "LDNHelpers.h"
 
 #endif
 
