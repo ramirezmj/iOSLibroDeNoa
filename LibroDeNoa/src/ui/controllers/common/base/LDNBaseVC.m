@@ -37,8 +37,6 @@
     
     CGRect rect = CGRectMake(535, 25, 0, 0);
     _menuView = [[menuViewVC alloc] initWithFrameAux:rect];
-    [self.view addSubview:_menuView];
-    [LDNHelpers changeViewVisibility:_menuView];
 }
 
 - (void)dealloc

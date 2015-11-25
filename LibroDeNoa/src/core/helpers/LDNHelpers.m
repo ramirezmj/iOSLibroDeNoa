@@ -10,6 +10,8 @@
 
 @implementation LDNHelpers
 
+#pragma mark - Class methods
+
 + (void)changeViewVisibility:(UIView *)view playingSound:(NSString *)sound
 {
     if (view.isHidden) {

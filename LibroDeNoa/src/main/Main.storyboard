@@ -83,6 +83,19 @@
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" id="Pb5-ZT-yVI" userLabel="Carret">
+                                <rect key="frame" x="-55" y="407" width="333" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01 - Carret" id="6b2-rz-lGq">
+                                        <rect key="frame" x="20" y="20" width="293" height="229"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" id="b4j-kK-WUc" userLabel="Tieta">
                                 <rect key="frame" x="664" y="104" width="352" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -249,6 +262,11 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_ullmerli1" id="RXB-K5-m6g">
+                                        <rect key="frame" x="124" y="67" width="21" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
                                     <view hidden="YES" contentMode="scaleToFill" id="6aI-eR-HIT">
                                         <rect key="frame" x="153" y="0.0" width="219" height="107"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -278,19 +296,6 @@
                                             <action selector="didPressMerli:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPi-rg-GJB"/>
                                         </connections>
                                     </button>
-                                </subviews>
-                                <animations/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" id="Pb5-ZT-yVI" userLabel="Carret">
-                                <rect key="frame" x="-55" y="407" width="333" height="269"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01 - Carret" id="6b2-rz-lGq">
-                                        <rect key="frame" x="20" y="20" width="293" height="229"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -350,6 +355,7 @@
                         <outlet property="tietaCap" destination="Hib-ms-ncV" id="mhc-Rw-Eiz"/>
                         <outlet property="tietaContainerView" destination="b4j-kK-WUc" id="Nfk-ma-84w"/>
                         <outlet property="tietaCos" destination="YQq-hm-CG3" id="bha-yA-qHM"/>
+                        <outlet property="ullMerli" destination="RXB-K5-m6g" id="fG6-Wl-e8y"/>
                         <segue destination="7Wq-jM-ZuO" kind="modal" identifier="pageOneToPageTwoSegue" animates="NO" id="ENA-Ui-6lU"/>
                     </connections>
                 </viewController>
@@ -452,6 +458,7 @@
         <image name="01_tiet_estatic" width="1040" height="832"/>
         <image name="01_tieta_cap_estatica" width="297" height="288"/>
         <image name="01_tieta_estatica" width="595" height="850"/>
+        <image name="01_ullmerli1" width="60" height="29"/>
         <image name="04 - Hort - RET" width="3072" height="1536"/>
         <image name="bafarada06" width="841" height="267"/>
     </resources>

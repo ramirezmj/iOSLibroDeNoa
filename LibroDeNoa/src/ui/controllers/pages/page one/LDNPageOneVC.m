@@ -37,6 +37,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *carlotaBafaradaDialogLabel;
 /** MERLI **/
 @property (weak, nonatomic) IBOutlet UIImageView *merli;
+@property (weak, nonatomic) IBOutlet UIImageView *ullMerli;
+
 @property (weak, nonatomic) IBOutlet UIView *merliContainerView;
 @property (weak, nonatomic) IBOutlet UIView *merliBafaradaContainerView;
 @property (weak, nonatomic) IBOutlet UILabel *merliBafaradaDialogLabel;
@@ -63,6 +65,7 @@
 @property (strong, nonatomic) NSArray *merliSoundsArray;
 
 /** Animations **/
+@property (strong, nonatomic) NSTimer *timer;
 @property (nonatomic, assign) BOOL tietEstatic;
 @property (nonatomic, assign) BOOL tietaEstatic;
 
@@ -81,7 +84,15 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [self.view addSubview:self.menuView];
+    [LDNHelpers changeViewVisibility:self.menuView];
     [self configAnimations];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [_timer invalidate];
 }
 
 #pragma mark - Sounds Section
@@ -148,6 +159,7 @@
 - (void)animateStaticAnimations
 {
     [self configTietNormal];
+    [_tietCap startAnimating];
     [_tietCos startAnimating];
     
     [self configTietaNormal];
@@ -155,7 +167,12 @@
     [_tietaCos startAnimating];
     
     [self configCarlotaNormal];
+//    [self configCarlotaEnBici];
     [_carlotaCap startAnimating];
+//    [_carlotaCos startAnimating];
+    
+    [self configMerliUll];
+    [_ullMerli startAnimating];
 }
 
 - (void)animateEnviroment
@@ -190,6 +207,30 @@
     [_tietCos setAnimationImages:images];
     [_tietCos setAnimationDuration:2.0];
     [_tietCos setAnimationRepeatCount:0];
+    
+    UIImage *tiet_cap1 = [UIImage imageNamed:@"01_tiet_CAP_estatic"];
+    UIImage *tiet_cap2 = [UIImage imageNamed:@"01_tiet_CAP_parlant1"];
+    UIImage *tiet_cap3 = [UIImage imageNamed:@"01_tiet_CAP_ullstancats"];
+    
+    
+    NSArray *images2 = @[tiet_cap1, tiet_cap2, tiet_cap3];
+    [_tietCap setAnimationImages:images2];
+    [_tietCap setAnimationDuration:5.0];
+    [_tietCap setAnimationRepeatCount:0];
+}
+
+
+- (void)configTietParlant
+{
+    UIImage *tiet_cap1 = [UIImage imageNamed:@"01_tiet_CAP_decara_parlant1"];
+    UIImage *tiet_cap2 = [UIImage imageNamed:@"01_tiet_CAP_decara_parlant2"];
+    UIImage *tiet_cap3 = [UIImage imageNamed:@"01_tiet_CAP_decara_ullstancats"];
+    
+    
+    NSArray *images = @[tiet_cap1, tiet_cap2, tiet_cap3];
+    [_tietCap setAnimationImages:images];
+    [_tietCap setAnimationDuration:2.0];
+    [_tietCap setAnimationRepeatCount:0];
 }
 
 - (void)configTietTronc
@@ -271,6 +312,43 @@
     [_carlotaCap setAnimationRepeatCount:0];
 }
 
+- (void)configCarlotaParlant
+{
+    UIImage *carlota_cap1 = [UIImage imageNamed:@"01_Carlota_Estatica"];
+    UIImage *carlota_cap2 = [UIImage imageNamed:@"01_Carlota_xerrant_01"];
+    UIImage *carlota_cap3 = [UIImage imageNamed:@"01_Carlota_xerrant_02"];
+    
+    NSArray *images = @[carlota_cap1, carlota_cap2, carlota_cap3];
+    [_carlotaCap setAnimationImages:images];
+    [_carlotaCap setAnimationDuration:1.0];
+    [_carlotaCap setAnimationRepeatCount:0];
+}
+
+- (void)configCarlotaEnBici
+{
+    UIImage *carlota_bici1 = [UIImage imageNamed:@"01_Carlota_bici01"];
+    UIImage *carlota_bici2 = [UIImage imageNamed:@"01_Carlota_bici02"];
+    UIImage *carlota_bici3 = [UIImage imageNamed:@"01_Carlota_bici03"];
+    UIImage *carlota_bici4 = [UIImage imageNamed:@"01_Carlota_bici04"];
+    UIImage *carlota_bici5 = [UIImage imageNamed:@"01_Carlota_bici05"];
+    UIImage *carlota_bici6 = [UIImage imageNamed:@"01_Carlota_bici06"];
+    UIImage *carlota_bici7 = [UIImage imageNamed:@"01_Carlota_bici07"];
+    UIImage *carlota_bici8 = [UIImage imageNamed:@"01_Carlota_bici08"];
+    UIImage *carlota_bici9 = [UIImage imageNamed:@"01_Carlota_bici09"];
+    UIImage *carlota_bici10 = [UIImage imageNamed:@"01_Carlota_bici10"];
+    UIImage *carlota_bici11 = [UIImage imageNamed:@"01_Carlota_bici11"];
+    UIImage *carlota_bici12 = [UIImage imageNamed:@"01_Carlota_bici12"];
+    UIImage *carlota_bici13 = [UIImage imageNamed:@"01_Carlota_bici13"];
+    UIImage *carlota_bici14 = [UIImage imageNamed:@"01_Carlota_bici14"];
+    
+    NSArray *images = @[carlota_bici1, carlota_bici2, carlota_bici3, carlota_bici4, carlota_bici5,
+                        carlota_bici6, carlota_bici7, carlota_bici8, carlota_bici9, carlota_bici10,
+                        carlota_bici11, carlota_bici12, carlota_bici13, carlota_bici14];
+    [_carlotaCos setAnimationImages:images];
+    [_carlotaCap setAnimationDuration:1.0];
+    [_carlotaCap setAnimationRepeatCount:0];
+}
+
 /** Plantes **/
 
 - (void)configPlantes
@@ -300,6 +378,31 @@
     [_plantesLiles setAnimationRepeatCount:0];
 }
 
+/** Merli **/
+- (void)configMerliUll
+{
+    UIImage *merli_ull1 = [UIImage imageNamed:@"01_ullmerli1"];
+    UIImage *merli_ull2 = [UIImage imageNamed:@"01_ullmerli2"];
+    UIImage *merli_ull3 = [UIImage imageNamed:@"01_ullmerli3"];
+    
+    NSArray *images = @[merli_ull1, merli_ull2, merli_ull3];
+    [_ullMerli setAnimationImages:images];
+    [_ullMerli setAnimationDuration:5.0];
+    [_ullMerli setAnimationRepeatCount:0];
+}
+
+- (void)configMerliParlant
+{
+    UIImage *merli1 = [UIImage imageNamed:@"01_merli_estatic"];
+    UIImage *merli2 = [UIImage imageNamed:@"01_merli_parlant1"];
+    
+    NSArray *images = @[merli1, merli2];
+    [_merli setAnimationImages:images];
+    [_merli setAnimationDuration:1.0];
+    [_merli setAnimationRepeatCount:0];
+}
+
+
 #pragma mark - IBActions methods
 
 - (IBAction)didPressTietAxe:(UIButton *)sender
@@ -320,6 +423,9 @@
     int idDialog = [LDNHelpers getRandomBafarada:_tietDialogsArray];
     _tietBafaradaDialogLabel.text    = _tietDialogsArray[idDialog];
     [LDNHelpers changeViewVisibility:_tietBafaradaContainerView playingSound:_tietSoundsArray[idDialog]];
+    [self startTimerForSelector:@"hideBarafadaTiet"];
+    [self configTietParlant];
+    [_tietCap startAnimating];
 }
 
 - (IBAction)didPressCarlotaCap:(UIButton *)sender
@@ -327,6 +433,9 @@
     int idDialog = [LDNHelpers getRandomBafarada:_carlotaDialogsArray];
     _carlotaBafaradaDialogLabel.text = _carlotaDialogsArray[idDialog];
     [LDNHelpers changeViewVisibility:_carlotaBafaradaContainerView playingSound:_carlotaSoundsArray[idDialog]];
+    [self startTimerForSelector:@"hideBarafadaCarlota"];
+    [self configCarlotaParlant];
+    [_carlotaCap startAnimating];
 }
 
 - (IBAction)didPressMerli:(UIButton *)sender
@@ -334,6 +443,9 @@
     int idDialog = [LDNHelpers getRandomBafarada:_merliDialogsArray];
     _merliBafaradaDialogLabel.text   = _merliDialogsArray[idDialog];
     [LDNHelpers changeViewVisibility:_merliBafaradaContainerView playingSound:_merliSoundsArray[idDialog]];
+    [self startTimerForSelector:@"hideBarafadaMerli"];
+    [self configMerliParlant];
+    [_merli startAnimating];
 }
 
 - (IBAction)didPressTietaCap:(UIButton *)sender
@@ -341,6 +453,10 @@
     int idDialog = [LDNHelpers getRandomBafarada:_tietaDialogsArray];
     _tietaBafaradaDialogLabel.text   = _tietaDialogsArray[idDialog];
     [LDNHelpers changeViewVisibility:_tietaBafaradaContainerView playingSound:_tietaSoundsArray[idDialog]];
+    
+    [self startTimerForSelector:@"hideBarafadaTieta"];
+    [self configTietaParlant];
+    [_tietaCap startAnimating];
 }
 
 - (IBAction)didPressOcell:(UIButton *)sender
@@ -366,6 +482,46 @@
     if ([[segue identifier] isEqualToString:@"pageOneToPageTwoSegue"]) {
         LDNPageTwoVC *pageTwoVC = segue.destinationViewController;
     }
+}
+
+#pragma mark - Private Methods
+
+- (void)startTimerForSelector:(NSString *)selector
+{
+    _timer = [NSTimer scheduledTimerWithTimeInterval:3.0
+                                             target:self
+                                           selector:NSSelectorFromString(selector)
+                                           userInfo:nil
+                                            repeats:NO];
+}
+
+- (void)hideBarafadaTiet
+{
+    [self configTietNormal];
+    [_tietCap startAnimating];
+    [_tietBafaradaContainerView setHidden:YES];
+}
+
+- (void)hideBarafadaCarlota
+{
+    [self configCarlotaNormal];
+    [_carlotaCap startAnimating];
+    [_carlotaBafaradaContainerView setHidden:YES];
+}
+
+- (void)hideBarafadaMerli
+{
+    [self configMerliUll];
+    [_ullMerli startAnimating];
+    [_merli stopAnimating];
+    [_merliBafaradaContainerView setHidden:YES];
+}
+
+- (void)hideBarafadaTieta
+{
+    [self configTietaNormal];
+    [_tietaCap startAnimating];
+    [_tietaBafaradaContainerView setHidden:YES];
 }
 
 @end
