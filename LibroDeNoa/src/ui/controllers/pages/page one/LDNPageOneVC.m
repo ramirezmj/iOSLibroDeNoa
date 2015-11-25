@@ -62,6 +62,10 @@
 @property (strong, nonatomic) NSArray *merliDialogsArray;
 @property (strong, nonatomic) NSArray *merliSoundsArray;
 
+/** Animations **/
+@property (nonatomic, assign) BOOL tietEstatic;
+@property (nonatomic, assign) BOOL tietaEstatic;
+
 @end
 
 @implementation LDNPageOneVC
@@ -71,9 +75,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    [self configAnimations];
     [self setupDialogs];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self configAnimations];
 }
 
 #pragma mark - Sounds Section
@@ -133,13 +141,48 @@
 
 - (void)configAnimations
 {
+    [self animateStaticAnimations];
+    [self animateEnviroment];
+}
+
+- (void)animateStaticAnimations
+{
     [self configTietNormal];
     [_tietCos startAnimating];
+    
+    [self configTietaNormal];
+    [_tietaCap startAnimating];
+    [_tietaCos startAnimating];
+    
+    [self configCarlotaNormal];
+    [_carlotaCap startAnimating];
 }
+
+- (void)animateEnviroment
+{
+    [self configPlantes];
+    [_plantaGroga startAnimating];
+    [_plantaVerda startAnimating];
+    [_plantesLiles startAnimating];
+}
+
+- (void)animateTietaParlant
+{
+    [self configTietaParlant];
+    [_tietaCap startAnimating];
+}
+
+- (void)animateTietaGirant
+{
+    [self configTietaGirant];
+    [_tietaCap startAnimating];
+}
+
+/** Tiet **/
 
 - (void)configTietNormal
 {
-    tietEstatic = YES;
+    _tietEstatic = YES;
     UIImage *tiet_cos1 = [UIImage imageNamed:@"01_tiet_estatic"];
     UIImage *tiet_cos2 = [UIImage imageNamed:@"01_tiet_copet_destral1"];
     
@@ -151,7 +194,7 @@
 
 - (void)configTietTronc
 {
-    tietEstatic = NO;
+    _tietEstatic = NO;
     UIImage *tronc1 = [UIImage imageNamed:@"01_tiet_Partint_tronc1"];
     UIImage *tronc2 = [UIImage imageNamed:@"01_tiet_Partint_tronc2"];
     UIImage *tronc3 = [UIImage imageNamed:@"01_tiet_Partint_tronc3"];
@@ -162,16 +205,111 @@
     [_tietCos setAnimationRepeatCount:1];
 }
 
+/** Tieta **/
+
+- (void)configTietaNormal
+{
+    _tietaEstatic = YES;
+    
+    // Normal
+    UIImage *tieta_cap1 = [UIImage imageNamed:@"01_tieta_cap_estatica"];
+    UIImage *tieta_cap2 = [UIImage imageNamed:@"01_tieta_cap_ullcanto_01"];
+    UIImage *tieta_cap3 = [UIImage imageNamed:@"01_tieta_cap_ullcanto_02"];
+    
+    NSArray *imagesCap = @[tieta_cap1, tieta_cap2, tieta_cap3];
+    [_tietaCap setAnimationImages:imagesCap];
+    [_tietaCap setAnimationDuration:5.0];
+    [_tietaCap setAnimationRepeatCount:0];
+
+    // Regant
+    UIImage *tieta_cos1 = [UIImage imageNamed:@"01_tieta_estatica"];
+    UIImage *tieta_cos2 = [UIImage imageNamed:@"01_tieta_Regant_01"];
+    UIImage *tieta_cos3 = [UIImage imageNamed:@"01_tieta_Regant_02"];
+    
+    NSArray *images = @[tieta_cos1, tieta_cos2, tieta_cos3, tieta_cos2, tieta_cos3, tieta_cos2, tieta_cos3,tieta_cos1,tieta_cos1, tieta_cos1];
+    [_tietaCos setAnimationImages:images];
+    [_tietaCos setAnimationDuration:5.0];
+    [_tietaCos setAnimationRepeatCount:0];
+}
+
+- (void)configTietaGirant
+{
+    // Girant-se
+    UIImage *tieta_cap_girat1 = [UIImage imageNamed:@"01_tieta_cap_ullcanto_01"];
+    UIImage *tieta_cap_girat2 = [UIImage imageNamed:@"01_tieta_cap_ullcanto_02"];
+    UIImage *tieta_cap_girat3 = [UIImage imageNamed:@"01_tieta_cap_Ullscara_01"];
+    UIImage *tieta_cap_girat4 = [UIImage imageNamed:@"01_tieta_cap_Ullscara_02"];
+    
+    NSArray *imagesCap_girant = @[tieta_cap_girat1, tieta_cap_girat2, tieta_cap_girat3, tieta_cap_girat4];
+    [_tietaCap setAnimationImages:imagesCap_girant];
+    [_tietaCap setAnimationDuration:5.0];
+    [_tietaCap setAnimationRepeatCount:1];
+}
+
+- (void)configTietaParlant
+{
+    // Parlant
+    UIImage *tieta_cap_parlant1 = [UIImage imageNamed:@"01_tieta_cap_parlantcara_01"];
+    UIImage *tieta_cap_parlant2 = [UIImage imageNamed:@"01_tieta_cap_parlantcara_02"];
+    
+    NSArray *imagesCap_parlant = @[tieta_cap_parlant1, tieta_cap_parlant2];
+    [_tietaCap setAnimationImages:imagesCap_parlant];
+    [_tietaCap setAnimationDuration:1.0];
+    [_tietaCap setAnimationRepeatCount:3];
+}
+
+/** Carlota **/
+
+- (void)configCarlotaNormal
+{
+    UIImage *carlota_cap1 = [UIImage imageNamed:@"01_Carlota_Estatica"];
+    UIImage *carlota_cap2 = [UIImage imageNamed:@"01_Carlota_Ulls_01"];
+    
+    NSArray *images = @[carlota_cap1, carlota_cap2];
+    [_carlotaCap setAnimationImages:images];
+    [_carlotaCap setAnimationDuration:5.0];
+    [_carlotaCap setAnimationRepeatCount:0];
+}
+
+/** Plantes **/
+
+- (void)configPlantes
+{
+    UIImage *planta_groga1 = [UIImage imageNamed:@"01_planta groga1"];
+    UIImage *planta_groga2 = [UIImage imageNamed:@"01_planta groga2"];
+    
+    NSArray *images1 = @[planta_groga1,planta_groga2];
+    [_plantaGroga setAnimationImages:images1];
+    [_plantaGroga setAnimationDuration:4.5];
+    [_plantaGroga setAnimationRepeatCount:0];
+    
+    UIImage *planta_verda1 = [UIImage imageNamed:@"01_planta Verda1"];
+    UIImage *planta_verda2 = [UIImage imageNamed:@"01_planta Verda2"];
+    
+    NSArray *images2 = @[planta_verda1, planta_verda2];
+    [_plantaVerda setAnimationImages:images2];
+    [_plantaVerda setAnimationDuration:5.0];
+    [_plantaVerda setAnimationRepeatCount:0];
+    
+    UIImage *plantes_liles1 = [UIImage imageNamed:@"01_plantes liles1"];
+    UIImage *plantes_liles2 = [UIImage imageNamed:@"01_plantes liles2"];
+    
+    NSArray *images3 = @[plantes_liles1, plantes_liles2];
+    [_plantesLiles setAnimationImages:images3];
+    [_plantesLiles setAnimationDuration:4.0];
+    [_plantesLiles setAnimationRepeatCount:0];
+}
+
 #pragma mark - IBActions methods
 
 - (IBAction)didPressTietAxe:(UIButton *)sender
 {
     // Paramos animacion primera
-    if (tietEstatic) {
-    [_tietCos stopAnimating];
-    
-    [self configTietTronc];
-    [_tietCos startAnimating];
+    if (_tietEstatic) {
+        [_tietCos stopAnimating];
+        
+        [self configTietTronc];
+        [_tietCos startAnimating];
     }
     [_SoundManager prepareToPlayWithSound:@"copfusta_tiet2.mp3"];
     [_SoundManager playSound:@"copfusta_tiet2.mp3"];

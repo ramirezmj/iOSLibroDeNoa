@@ -35,4 +35,9 @@
     return arc4random() % ([dialogs count]);
 }
 
++ (void)changeViewVisibility:(UIView *)view
+{
+    [self changeViewVisibility:view playingSound:nil];
+}
+
 @end

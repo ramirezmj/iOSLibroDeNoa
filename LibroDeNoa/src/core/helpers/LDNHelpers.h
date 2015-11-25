@@ -11,6 +11,7 @@
 @interface LDNHelpers : NSObject
 
 + (void)changeViewVisibility:(UIView *)view playingSound:(NSString *)sound;
++ (void)changeViewVisibility:(UIView *)view;
 + (int)getRandomBafarada:(NSArray *)dialogs;
 + (void)changeButtonVisibility:(UIButton *)button;
 

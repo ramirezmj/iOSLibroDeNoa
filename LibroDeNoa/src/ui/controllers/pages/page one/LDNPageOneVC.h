@@ -24,9 +24,7 @@
 
 #import "LDNBaseVC.h"
 
-@interface LDNPageOneVC : LDNBaseVC {
-    BOOL tietEstatic;
-}
+@interface LDNPageOneVC : LDNBaseVC
 
 @end
 
