@@ -11,6 +11,11 @@
 #import "LDNPageTwoVC.h"
 #import "menuViewVC.h"
 
+CGRect ocellPosition;
+CGRect sargantanaPosition;
+CGRect sargantanaDefaultPosition;
+CGRect sargantanaFugidaPosition;
+
 @interface LDNPageOneVC ()
 
 /** TIETA **/
@@ -49,6 +54,7 @@
 @property (weak, nonatomic) IBOutlet UIView *ocellContainerView;
 /** SARGANTANA **/
 @property (weak, nonatomic) IBOutlet UIImageView *sargantana;
+@property (strong, nonatomic) IBOutlet UIImageView *sargantanaCua;
 @property (weak, nonatomic) IBOutlet UIView *sargantanaContainerView;
 
 /** OTHER **/
@@ -181,6 +187,7 @@
     [_plantaGroga startAnimating];
     [_plantaVerda startAnimating];
     [_plantesLiles startAnimating];
+    [self configSargantana];
 }
 
 - (void)animateTietaParlant
@@ -218,7 +225,6 @@
     [_tietCap setAnimationDuration:5.0];
     [_tietCap setAnimationRepeatCount:0];
 }
-
 
 - (void)configTietParlant
 {
@@ -402,6 +408,105 @@
     [_merli setAnimationRepeatCount:0];
 }
 
+/** Ocell **/
+
+- (void)configOcellVolant
+{
+    ocellPosition = CGRectMake(_ocellContainerView.frame.origin.x,
+                               _ocellContainerView.frame.origin.y,
+                               _ocellContainerView.frame.size.width,
+                               _ocellContainerView.frame.size.height);
+
+    UIImage *ocell1 = [UIImage imageNamed:@"01_ocell_empren_vol"];
+    
+    UIImage *ocell2 = [UIImage imageNamed:@"01_ocell_vola1"];
+    UIImage *ocell3 = [UIImage imageNamed:@"01_ocell_vola2"];
+    
+    NSArray *images1 = @[ocell1, ocell2, ocell3, ocell2, ocell3, ocell2, ocell3, ocell2, ocell3];
+    
+    [UIView animateWithDuration:1.0
+                     animations:^{
+                         [_ocell setAnimationImages:images1];
+                         [_ocell setAnimationRepeatCount:0];
+                         [_ocell setAnimationDuration:2.0];
+                         [_ocellContainerView setFrame:CGRectMake(
+                                                                  669,
+                                                                  52,
+                                                                  _ocellContainerView.bounds.size.width,
+                                                                  _ocellContainerView.bounds.size.height)];
+                     } completion:^(BOOL finished) {
+                         [UIView animateWithDuration:3.0
+                                          animations:^{
+                                              [_ocellContainerView setFrame:CGRectMake(
+                                                                                       1000,
+                                                                                       52,
+                                                                                       _ocellContainerView.bounds.size.width,
+                                                                                       _ocellContainerView.bounds.size.height)];
+                                          } completion:nil];
+                     }];
+}
+
+/** Sargantana **/
+- (void)configSargantana
+{
+    sargantanaDefaultPosition = CGRectMake(self.view.bounds.size.width,
+                                          self.view.bounds.size.height-300,
+                                          _sargantanaContainerView.frame.size.width,
+                                          _sargantanaContainerView.frame.size.height);
+    
+    [_sargantanaContainerView setFrame: sargantanaDefaultPosition];
+    sargantanaPosition = CGRectMake(930, //930
+                                    161,  //161
+                                    _sargantanaContainerView.frame.size.width,
+                                    _sargantanaContainerView.frame.size.height);
+    
+    UIImage *sargantana1 = [UIImage imageNamed:@"01_Sargantana1"];
+    UIImage *sargantana2 = [UIImage imageNamed:@"01_Sargantana2"];
+    
+    NSArray *images = @[sargantana1, sargantana2];
+    
+    [UIView animateWithDuration:4.0
+                     animations:^{
+                         [LDNHelpers changeViewVisibility:_sargantanaContainerView];
+                         [_sargantana setAnimationImages:images];
+                         [_sargantana setAnimationDuration:1.0];
+                         [_sargantanaContainerView setFrame:sargantanaPosition];
+                         [_sargantana startAnimating];
+                     } completion:^(BOOL finished) {
+                         [_sargantana stopAnimating];
+                     }];
+}
+
+- (void)configSargantanaFugint
+{
+    sargantanaPosition = CGRectMake(930,
+                                    -125,
+                                    _sargantanaContainerView.frame.size.width,
+                                    _sargantanaContainerView.frame.size.height);
+    CGRect frameCua = CGRectMake(950,
+                            400, _sargantanaCua.frame.size.width,
+                            _sargantanaCua.frame.size.height);
+    UIImage *sargantana1 = [UIImage imageNamed:@"01_Sargantana_escuada1"];
+    UIImage *sargantana2 = [UIImage imageNamed:@"01_Sargantana_escuada2"];
+
+
+    NSArray *images = @[sargantana1, sargantana2];
+    
+    [UIView animateWithDuration:4.0
+                     animations:^{
+                         [LDNHelpers changeViewVisibility:_sargantanaCua];
+                         [_sargantana setAnimationImages:images];
+                         [_sargantana setAnimationDuration:1.0];
+                         [_sargantanaContainerView setFrame:sargantanaPosition];
+                         [_sargantanaCua setAnimationDuration:1.0];
+                         [_sargantanaCua setFrame:frameCua];
+                         [_sargantanaCua startAnimating];
+                     } completion:^(BOOL finished) {
+                         [_sargantana stopAnimating];
+                         [LDNHelpers changeViewVisibility:_sargantanaCua];
+                     }];
+    
+}
 
 #pragma mark - IBActions methods
 
@@ -461,12 +566,14 @@
 
 - (IBAction)didPressOcell:(UIButton *)sender
 {
-    NSLog(@"didPressOcell");
+    [self configOcellVolant];
+    [_ocell startAnimating];
 }
 
 - (IBAction)didPressSargantana:(UIButton *)sender
 {
-    NSLog(@"didpressSargantana");
+    [self configSargantanaFugint];
+    [_sargantana startAnimating];
 }
 
 #pragma mark - Base Methods
@@ -475,13 +582,6 @@
 {
     NSLog(@"Next page button clicked");
     [self performSegueWithIdentifier:@"pageOneToPageTwoSegue" sender:nil];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"pageOneToPageTwoSegue"]) {
-        LDNPageTwoVC *pageTwoVC = segue.destinationViewController;
-    }
 }
 
 #pragma mark - Private Methods
