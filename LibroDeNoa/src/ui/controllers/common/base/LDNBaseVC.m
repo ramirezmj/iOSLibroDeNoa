@@ -36,7 +36,8 @@
     [super viewDidAppear:animated];
     
     CGRect rect = CGRectMake(535, 25, 0, 0);
-    _menuView = [[menuViewVC alloc] initWithFrameAux:rect];
+    _menuView = [[menuViewVC alloc] initWithFrameAux:rect andDelegate:self];
+    [self didFinishLoadingMenuView:_menuView];
 }
 
 - (void)dealloc
@@ -94,6 +95,9 @@
     [LDNHelpers changeViewVisibility:_menuView playingSound:nil];
 }
 
-
+- (void)didFinishLoadingMenuView:(menuViewVC *)sender
+{
+    NSLog(@"Menu delegate works");
+}
 
 @end

@@ -12,9 +12,14 @@
 #import "menuViewVC.h"
 
 CGRect ocellPosition;
-CGRect sargantanaPosition;
+CGRect sargantanaEndPosition;
 CGRect sargantanaDefaultPosition;
 CGRect sargantanaFugidaPosition;
+CGRect sargantanaCuaPosition;
+CGRect carlotaStartPosition;
+CGRect carlotaEndPosition;
+
+CGPoint _priorPoint;
 
 @interface LDNPageOneVC ()
 
@@ -81,7 +86,8 @@ CGRect sargantanaFugidaPosition;
 
 #pragma mark - Life cycle
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self setupDialogs];
@@ -93,6 +99,7 @@ CGRect sargantanaFugidaPosition;
     [self.view addSubview:self.menuView];
     [LDNHelpers changeViewVisibility:self.menuView];
     [self configAnimations];
+    [self flipView:_carlotaContainerView left:NO];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -115,6 +122,7 @@ CGRect sargantanaFugidaPosition;
         }
     }
 }
+
 #pragma mark - Dialogs Setup
 
 - (void)setupDialogs
@@ -172,10 +180,7 @@ CGRect sargantanaFugidaPosition;
     [_tietaCap startAnimating];
     [_tietaCos startAnimating];
     
-    [self configCarlotaNormal];
-//    [self configCarlotaEnBici];
-    [_carlotaCap startAnimating];
-//    [_carlotaCos startAnimating];
+    [self configCarlotaEntrada];
     
     [self configMerliUll];
     [_ullMerli startAnimating];
@@ -188,6 +193,8 @@ CGRect sargantanaFugidaPosition;
     [_plantaVerda startAnimating];
     [_plantesLiles startAnimating];
     [self configSargantana];
+    [self configOcellNormal];
+    [_ocell stopAnimating];
 }
 
 - (void)animateTietaParlant
@@ -307,6 +314,37 @@ CGRect sargantanaFugidaPosition;
 
 /** Carlota **/
 
+- (void)configCarlotaEntrada
+{
+    carlotaStartPosition = CGRectMake(
+                                      0,
+                                      214,
+                                      _carlotaContainerView.frame.size.width,
+                                      _carlotaContainerView.frame.size.height
+                                      );
+    carlotaEndPosition = CGRectMake(
+                                    385,
+                                    214,
+                                    _carlotaContainerView.frame.size.width,
+                                    _carlotaContainerView.frame.size.height
+                                    );
+    
+    [_carlotaContainerView setFrame:carlotaStartPosition];
+    
+    if ([_carlotaContainerView isHidden])[LDNHelpers changeViewVisibility:_carlotaContainerView];
+
+    [UIView animateWithDuration:4.0 animations:^{
+        [self configCarlotaEnBici];
+        [_carlotaCos startAnimating];
+        [_carlotaContainerView setFrame:carlotaEndPosition];
+    } completion:^(BOOL finished) {
+        [_carlotaCos stopAnimating];
+        [self configCarlotaNormal];
+        [_carlotaCap startAnimating];
+    }];
+    
+}
+
 - (void)configCarlotaNormal
 {
     UIImage *carlota_cap1 = [UIImage imageNamed:@"01_Carlota_Estatica"];
@@ -410,15 +448,21 @@ CGRect sargantanaFugidaPosition;
 
 /** Ocell **/
 
+- (void)configOcellNormal
+{
+    ocellPosition = CGRectMake(615,
+                               18,
+                               _ocellContainerView.bounds.size.width,
+                               _ocellContainerView.bounds.size.height);
+    
+    [_ocellContainerView setFrame:ocellPosition];
+    if ([_ocellContainerView isHidden])
+        [LDNHelpers changeViewVisibility:_ocellContainerView];
+}
+
 - (void)configOcellVolant
 {
-    ocellPosition = CGRectMake(_ocellContainerView.frame.origin.x,
-                               _ocellContainerView.frame.origin.y,
-                               _ocellContainerView.frame.size.width,
-                               _ocellContainerView.frame.size.height);
-
     UIImage *ocell1 = [UIImage imageNamed:@"01_ocell_empren_vol"];
-    
     UIImage *ocell2 = [UIImage imageNamed:@"01_ocell_vola1"];
     UIImage *ocell3 = [UIImage imageNamed:@"01_ocell_vola2"];
     
@@ -449,16 +493,27 @@ CGRect sargantanaFugidaPosition;
 /** Sargantana **/
 - (void)configSargantana
 {
+    // Sargantana default position
     sargantanaDefaultPosition = CGRectMake(self.view.bounds.size.width,
                                           self.view.bounds.size.height-300,
                                           _sargantanaContainerView.frame.size.width,
                                           _sargantanaContainerView.frame.size.height);
     
     [_sargantanaContainerView setFrame: sargantanaDefaultPosition];
-    sargantanaPosition = CGRectMake(930, //930
-                                    161,  //161
+    
+    sargantanaEndPosition = CGRectMake(930,
+                                    161,
                                     _sargantanaContainerView.frame.size.width,
                                     _sargantanaContainerView.frame.size.height);
+    
+    // Sargantana cua default position
+    sargantanaCuaPosition = CGRectMake(960,
+                                       247,
+                                       _sargantanaCua.frame.size.width,
+                                       _sargantanaCua.frame.size.height);
+    [_sargantanaCua setFrame:sargantanaCuaPosition];
+    if(![_sargantanaCua isHidden])
+        [LDNHelpers changeViewVisibility:_sargantanaCua];
     
     UIImage *sargantana1 = [UIImage imageNamed:@"01_Sargantana1"];
     UIImage *sargantana2 = [UIImage imageNamed:@"01_Sargantana2"];
@@ -467,10 +522,12 @@ CGRect sargantanaFugidaPosition;
     
     [UIView animateWithDuration:4.0
                      animations:^{
-                         [LDNHelpers changeViewVisibility:_sargantanaContainerView];
+                         if ([_sargantanaContainerView isHidden])
+                             [LDNHelpers changeViewVisibility:_sargantanaContainerView];
+                         
                          [_sargantana setAnimationImages:images];
                          [_sargantana setAnimationDuration:1.0];
-                         [_sargantanaContainerView setFrame:sargantanaPosition];
+                         [_sargantanaContainerView setFrame:sargantanaEndPosition];
                          [_sargantana startAnimating];
                      } completion:^(BOOL finished) {
                          [_sargantana stopAnimating];
@@ -479,31 +536,34 @@ CGRect sargantanaFugidaPosition;
 
 - (void)configSargantanaFugint
 {
-    sargantanaPosition = CGRectMake(930,
+    sargantanaEndPosition = CGRectMake(930,
                                     -125,
                                     _sargantanaContainerView.frame.size.width,
                                     _sargantanaContainerView.frame.size.height);
+
     CGRect frameCua = CGRectMake(950,
-                            400, _sargantanaCua.frame.size.width,
-                            _sargantanaCua.frame.size.height);
+                                 400,
+                                 _sargantanaCua.frame.size.width,
+                                 _sargantanaCua.frame.size.height);
+    
     UIImage *sargantana1 = [UIImage imageNamed:@"01_Sargantana_escuada1"];
     UIImage *sargantana2 = [UIImage imageNamed:@"01_Sargantana_escuada2"];
-
-
+    
     NSArray *images = @[sargantana1, sargantana2];
     
     [UIView animateWithDuration:4.0
                      animations:^{
-                         [LDNHelpers changeViewVisibility:_sargantanaCua];
+                         if ([_sargantanaCua isHidden])
+                             [LDNHelpers changeViewVisibility:_sargantanaCua];
+                         
                          [_sargantana setAnimationImages:images];
                          [_sargantana setAnimationDuration:1.0];
-                         [_sargantanaContainerView setFrame:sargantanaPosition];
+                         [_sargantanaContainerView setFrame:sargantanaEndPosition];
                          [_sargantanaCua setAnimationDuration:1.0];
                          [_sargantanaCua setFrame:frameCua];
                          [_sargantanaCua startAnimating];
                      } completion:^(BOOL finished) {
                          [_sargantana stopAnimating];
-                         [LDNHelpers changeViewVisibility:_sargantanaCua];
                      }];
     
 }
@@ -574,6 +634,62 @@ CGRect sargantanaFugidaPosition;
 {
     [self configSargantanaFugint];
     [_sargantana startAnimating];
+}
+
+#pragma mark - Gesture Recognizers
+
+- (IBAction)handleCarlotaPan:(UIPanGestureRecognizer *)sender
+{
+    
+    UIView *view = sender.view;
+    CGPoint point = [sender locationInView:view.superview];
+    
+    if (sender.state == UIGestureRecognizerStateChanged) {
+        
+        CGPoint center = view.center;
+        center.x += point.x - _priorPoint.x;
+        //        center.y += point.y - _priorPoint.y;
+        view.center = center;
+
+        if (point.x < _priorPoint.x) {
+            [self flipView:_carlotaContainerView left:YES];
+        } else {
+            [self flipView:_carlotaContainerView left:NO];
+        }
+        
+    }
+    _priorPoint = point;
+    
+    if (sender.state == UIGestureRecognizerStateEnded) {
+        [self startPanAnimation:NO];
+    }
+    
+    if (sender.state == UIGestureRecognizerStateBegan) {
+        [self startPanAnimation:YES];
+    }
+    
+}
+
+- (UIView *)flipView:(UIView *)view left:(BOOL)left
+{
+    if (left) {
+        view.layer.transform = CATransform3DMakeRotation(M_PI, 0.0f, 1.0f, 0.0f);
+    } else {
+        view.layer.transform = CATransform3DMakeRotation(0.0f, 0.0f, 1.0f, 0.0f);
+    }
+    return view;
+}
+
+- (void)startPanAnimation:(BOOL)flag
+{
+    if (flag) {
+        [self configCarlotaNormal];
+        [_carlotaCap startAnimating];
+        [self configCarlotaEnBici];
+        [_carlotaCos startAnimating];
+    } else {
+        [_carlotaCos stopAnimating];
+    }
 }
 
 #pragma mark - Base Methods

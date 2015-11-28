@@ -8,7 +8,7 @@
 
 #import "menuViewVC.h"
 
-@interface LDNBaseVC : UIViewController
+@interface LDNBaseVC : UIViewController <MenuViewDelegate>
 
 @property (strong, nonatomic) UIButton *previousPageButton;
 @property (strong, nonatomic) UIButton *nextPageButton;

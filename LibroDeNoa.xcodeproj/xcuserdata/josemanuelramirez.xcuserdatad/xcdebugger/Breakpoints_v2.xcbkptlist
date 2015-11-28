@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LibroDeNoa/src/ui/controllers/pages/page one/LDNPageOneVC.m"
-            timestampString = "470414033.583966"
+            timestampString = "470324592.661477"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "544"
-            endingLineNumber = "544"
-            landmarkName = "-configSargantanaFugint"
+            startingLineNumber = "625"
+            endingLineNumber = "625"
+            landmarkName = "-handleCarlotaPan:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

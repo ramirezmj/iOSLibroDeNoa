@@ -21,6 +21,13 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.view addSubview:self.menuView];
+    [LDNHelpers changeViewVisibility:self.menuView];
+}
+
 - (void)goToPreviousPage:(UIButton *)button
 {
     [self dismissViewControllerAnimated:NO completion:nil];

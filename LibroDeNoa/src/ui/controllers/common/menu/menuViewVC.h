@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@class menuViewVC;
+
+@protocol MenuViewDelegate <NSObject>
+
+@required
+- (void)didFinishLoadingMenuView:(menuViewVC *)sender;
+
+@end
 
 @interface menuViewVC : UIView
 
-- (id)initWithFrameAux:(CGRect)frame;
+@property (nonatomic, weak) id <MenuViewDelegate> delegate;
+
+- (id)initWithFrameAux:(CGRect)frame andDelegate:(id<MenuViewDelegate>)delegate;
 
 @end
