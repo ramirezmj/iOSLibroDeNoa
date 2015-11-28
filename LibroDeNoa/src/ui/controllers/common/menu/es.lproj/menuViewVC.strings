@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Sound Volume"; ObjectID = "IvG-9z-4DR"; */
+"IvG-9z-4DR.text" = "Volumen del sonido";
+
+/* Class = "UIButton"; normalTitle = "Button2"; ObjectID = "b46-8U-T4E"; */
+"b46-8U-T4E.normalTitle" = "Léemelo";
+
+/* Class = "UIButton"; normalTitle = "Button1"; ObjectID = "hsb-5Y-3mU"; */
+"hsb-5Y-3mU.normalTitle" = "Lo leo yo";
+
+/* Class = "UIButton"; normalTitle = "Button3"; ObjectID = "iXq-ax-cLx"; */
+"iXq-ax-cLx.normalTitle" = "Poco a poco";
+
+/* Class = "UILabel"; text = "Story Teller Volume"; ObjectID = "mxC-T9-ou5"; */
+"mxC-T9-ou5.text" = "Volumen del Narrador";
+
+/* Class = "UIButton"; normalTitle = "Button4"; ObjectID = "y6B-cw-MBl"; */
+"y6B-cw-MBl.normalTitle" = "Más rápido";
